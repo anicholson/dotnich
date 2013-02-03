@@ -4,7 +4,7 @@
   <title><![CDATA[andrewdotnich]]></title>
   <link href="http://andrewdotni.ch//atom.xml" rel="self"/>
   <link href="http://andrewdotni.ch//"/>
-  <updated>2013-02-03T14:11:25+11:00</updated>
+  <updated>2013-02-04T09:45:05+11:00</updated>
   <id>http://andrewdotni.ch//</id>
   <author>
     <name><![CDATA[Andy Nicholson]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Eight tentacles]]></title>
+    <link href="http://andrewdotni.ch//blog/2013/02/03/octopress/"/>
+    <updated>2013-02-03T15:45:00+11:00</updated>
+    <id>http://andrewdotni.ch//blog/2013/02/03/octopress</id>
+    <content type="html"><![CDATA[<p>Over a year since my last post, and so I decided (in typical geek fashion) to reboot it by switching blogging platforms. So goodbye Blogger, and hello Octopress!
+Octopress is a different kind of blog system than many &#8211; there&#8217;s no database, only flat files. You write a new post in a plain text file, run a command to create the generated page, and away you go! A little magic is required to serve it easily on the web (I&#8217;m using a service called Heroku, for the other nerd in the audience), but that&#8217;s it!</p>
+
+<p>I&#8217;m thinking a bit about what I want to write about - the things that interest me, as well as what I&#8217;m up to. As always, here&#8217;s hoping it gets more love than the last effort :P</p>
+
+<p>Hello 2013!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Movember]]></title>
@@ -239,16 +253,6 @@ Thanks for this. My navel-gazing is currently oriented in similar directions.</d
     <id>http://andrewdotni.ch//blog/2011/02/19/of-notching-of-pointless-milestones</id>
     <content type="html"><![CDATA[<div class='post'>
 Just noticed that over at last.fm I&#8217;d notched up 33,333 song listens. Who cares. Here is the 33,333rd song I scrobbled. It&#8217;s kind of fitting, as I&#8217;ve really enjoyed this song again of late :)<br /><br /><iframe title="YouTube video player" width="480" height="390" src="http://www.youtube.com/embed/0Rdn1VZxo_E" frameborder="0" allowfullscreen></iframe></div>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Bourj Al-Barajneh: A lament]]></title>
-    <link href="http://andrewdotni.ch//blog/2011/02/10/bourj-al-barajneh-lament/"/>
-    <updated>2011-02-10T00:34:00+11:00</updated>
-    <id>http://andrewdotni.ch//blog/2011/02/10/bourj-al-barajneh-lament</id>
-    <content type="html"><![CDATA[<div class='post'>
-New year, new poem! Wrote this after coming back from a trip to the Middle East. Spent some time with people I barely knew (but now consider good friends) tooling around sightseeing and attempting to be make the world a better place. We did do some openly Christian stuff, but some of the images that stuck the most closely to me are from time we spent in a Palestinian refugee camp in Bourj Al-Barajneh, Beirut. There&#8217;s a great NGO called the <a href="http://inmafoundation.org">Inma Foundation</a> we were able to volunteer with; painting, cleaning, and decorating their centre within the camp. Check them out. I could try and spend words and words and words explaining the plight of these refugees – but maybe you need to go educate yourself as well :). Too many words, not enough poetry!<br /><hr/><br /><blockquote><br />I saw a truck driving through Bourj Al-Barajneh Camp<br />  It carried a load of rubble<br />  And a set of keys to a dream<br />  that will never be realised.<br />  <br />I saw a man walking through Bourj Al-Barajneh Camp<br />  His body wasn&#8217;t staying still<br />  But his soul was firmly stuck <br />  in that box of concrete, wires and despair. <br />  <br />I saw children playing in Bourj Al-Barajneh Camp<br />  They weren&#8217;t running, excited,<br />  Full of joy and light because<br />  They didn&#8217;t know they were allowed.<br />  <br />I saw a Son of Man in Bourj Al-Barajneh Camp<br />  He said He had plans for His children,<br />  For a hope and for a future.<br />  I&#8217;m glad Somebody does at least.<br /></blockquote></div>
 ]]></content>
   </entry>
   
