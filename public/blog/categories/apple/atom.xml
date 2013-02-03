@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: apple | andrewdotnich]]></title>
+  <link href="http://andrewdotni.ch//blog/categories/apple/atom.xml" rel="self"/>
+  <link href="http://andrewdotni.ch//"/>
+  <updated>2013-02-03T14:11:25+11:00</updated>
+  <id>http://andrewdotni.ch//</id>
+  <author>
+    <name><![CDATA[Andy Nicholson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Can't Send Mail in Snow Leopard? Try this]]></title>
+    <link href="http://andrewdotni.ch//blog/2009/08/31/cant-send-mail-in-snow-leopard-try-this/"/>
+    <updated>2009-08-31T23:54:00+10:00</updated>
+    <id>http://andrewdotni.ch//blog/2009/08/31/cant-send-mail-in-snow-leopard-try-this</id>
+    <content type="html"><![CDATA[<div class='post'>
+Upgraded my Macbook from Leopard to Snow Leopard on Saturday, and all seemed to be well until I couldn't send emails from Mail.app this evening. A google search revealed that others seemed to be having the same problem, but one of the fixes outlined <a href="http://discussions.apple.com/message.jspa?messageID=10062567#10062567">on the Apple forums</a> seems to have done the trick.<div><br /></div><div><ol><li>Close Mail.app if it is open.</li><li>Open Finder, and go to your user folder, then Library (that is, the Library folder for your user, not the system-wide one).</li><li>Rename the "Mail" folder to something else.</li><li>Re-open Mail.app. It should tell you that it needs to import mailboxes. DO NOT click Continue just yet!</li><li>Go back to the Finder window, and rename the Mail folder back to "Mail" again.</li><li>Switch back to Mail.app, and now click Continue.</li><li>Mail should reimport your messages, and you should now be able to send email again just fine!</li></ol></div></div>
+
+
+<h2>Comments</h2>
+
+
+<div class='comments'>
+<div class='comment'>
+<div class='author'>Edie</div>
+<div class='content'>
+Thank you thank you thank you so much for posting this procedure. I had such problems after upgrading to SnowLeopard. You are a life saver!<br />Edie</div>
+</div>
+<div class='comment'>
+<div class='author'>Edie</div>
+<div class='content'>
+Thank you, thank you thank you for posting this! I had such a problem with sending mail after the Genius Bar upgraded me to Snow Leopard.  Checked all my settings, called Go Daddy, rebooted and all checked out.  All better now that I followed your simple steps!! You are a life saver!<br />Edie</div>
+</div>
+<div class='comment'>
+<div class='author'>Andy</div>
+<div class='content'>
+Thank you so much. i have been having problems for weeks. this solved it.</div>
+</div>
+<div class='comment'>
+<div class='author'>Andy</div>
+<div class='content'>
+That was amazing, thanks for the tip, worked perfectly!</div>
+</div>
+<div class='comment'>
+<div class='author'>Andy</div>
+<div class='content'>
+Hi Wes, my account was a IMAP-based. I&#39;m not sure whether the mail protocol in use changes anything, so your milage may vary :)</div>
+</div>
+<div class='comment'>
+<div class='author'>Andy</div>
+<div class='content'>
+are you on an imap or pop account?</div>
+</div>
+</div>
+
+]]></content>
+  </entry>
+  
+</feed>

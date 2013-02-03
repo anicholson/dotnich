@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: quote | andrewdotnich]]></title>
+  <link href="http://andrewdotni.ch//blog/categories/quote/atom.xml" rel="self"/>
+  <link href="http://andrewdotni.ch//"/>
+  <updated>2013-02-03T14:11:25+11:00</updated>
+  <id>http://andrewdotni.ch//</id>
+  <author>
+    <name><![CDATA[Andy Nicholson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Keep turning the pages…]]></title>
+    <link href="http://andrewdotni.ch//blog/2011/05/01/keep-turning-pages/"/>
+    <updated>2011-05-01T16:29:00+10:00</updated>
+    <id>http://andrewdotni.ch//blog/2011/05/01/keep-turning-pages</id>
+    <content type="html"><![CDATA[<div class='post'>
+<blockquote>When she had got to the third page [of another story] and come to the end, she said, "That is the loveliest story I've ever read or ever shall read in my whole life. Oh, I wish I could have gone on reading it for ten years. At least I'll read it over again."<br />But here part of the magic of the Book came into play. You couldn't turn back. The right-hand pages, the ones ahead, could be turned; the left-hand pages could not.<br />... "It was about a cup and a sword and a tree and a green hill, I know that much. But I can't remember, and what shall I do?"'<br /></blockquote>--C.S. Lewis, "Voyage of the Dawn Treader"</div>
+
+]]></content>
+  </entry>
+  
+</feed>
