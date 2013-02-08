@@ -4,7 +4,7 @@
   <title><![CDATA[andrewdotnich]]></title>
   <link href="http://andrewdotni.ch//atom.xml" rel="self"/>
   <link href="http://andrewdotni.ch//"/>
-  <updated>2013-02-05T10:56:10+11:00</updated>
+  <updated>2013-02-08T15:45:19+11:00</updated>
   <id>http://andrewdotni.ch//</id>
   <author>
     <name><![CDATA[Andy Nicholson]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[[untitled poem]]]></title>
+    <link href="http://andrewdotni.ch//blog/2013/02/08/untitled-poem/"/>
+    <updated>2013-02-08T15:23:00+11:00</updated>
+    <id>http://andrewdotni.ch//blog/2013/02/08/untitled-poem</id>
+    <content type="html"><![CDATA[<pre>
+Sometimes skies are only grey,
+and nought makes it go away;
+doesn't mean my failure, it's just life.
+
+I promise to try hard in future
+not to race with thread to suture
+something only balm of time will heal.
+</pre>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Eight tentacles]]></title>
@@ -243,16 +261,6 @@ Over at my new friend Kim&#8217;s blog <a href="http://refiningthebrew.blogspot.
 Thanks for this. My navel-gazing is currently oriented in similar directions.</div>
 </div>
 </div>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Of the notching of pointless milestones there is no end…]]></title>
-    <link href="http://andrewdotni.ch//blog/2011/02/19/of-notching-of-pointless-milestones/"/>
-    <updated>2011-02-19T16:02:00+11:00</updated>
-    <id>http://andrewdotni.ch//blog/2011/02/19/of-notching-of-pointless-milestones</id>
-    <content type="html"><![CDATA[<div class='post'>
-Just noticed that over at last.fm I&#8217;d notched up 33,333 song listens. Who cares. Here is the 33,333rd song I scrobbled. It&#8217;s kind of fitting, as I&#8217;ve really enjoyed this song again of late :)<br /><br /><iframe title="YouTube video player" width="480" height="390" src="http://www.youtube.com/embed/0Rdn1VZxo_E" frameborder="0" allowfullscreen></iframe></div>
 ]]></content>
   </entry>
   

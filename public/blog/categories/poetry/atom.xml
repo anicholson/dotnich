@@ -4,7 +4,7 @@
   <title><![CDATA[Category: poetry | andrewdotnich]]></title>
   <link href="http://andrewdotni.ch//blog/categories/poetry/atom.xml" rel="self"/>
   <link href="http://andrewdotni.ch//"/>
-  <updated>2013-02-05T10:56:10+11:00</updated>
+  <updated>2013-02-08T15:45:19+11:00</updated>
   <id>http://andrewdotni.ch//</id>
   <author>
     <name><![CDATA[Andy Nicholson]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[[untitled poem]]]></title>
+    <link href="http://andrewdotni.ch//blog/2013/02/08/untitled-poem/"/>
+    <updated>2013-02-08T15:23:00+11:00</updated>
+    <id>http://andrewdotni.ch//blog/2013/02/08/untitled-poem</id>
+    <content type="html"><![CDATA[<pre>
+Sometimes skies are only grey,
+and nought makes it go away;
+doesn't mean my failure, it's just life.
+
+I promise to try hard in future
+not to race with thread to suture
+something only balm of time will heal.
+</pre>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Isaiah]]></title>
@@ -70,17 +88,6 @@ Here a Rum-tum-tugg-o-war<br />A NY state of mind,<br />A yin & yang of fear def
     <id>http://andrewdotni.ch//blog/2011/07/02/saturday-morning</id>
     <content type="html"><![CDATA[<div class='post'>
 Sunlight streaming through my window/<br />urging me to go and do/<br />all I want is/<br />for the world to/<br /><b>shove off</b><br />for a-<br />while and<br />let me<br />be…</div>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Prodigal brothers in arms]]></title>
-    <link href="http://andrewdotni.ch//blog/2011/06/06/prodigal-brothers-in-arms/"/>
-    <updated>2011-06-06T23:26:00+10:00</updated>
-    <id>http://andrewdotni.ch//blog/2011/06/06/prodigal-brothers-in-arms</id>
-    <content type="html"><![CDATA[<div class='post'>
-"Are we so different?"<br />younger brother calls to elder.<br />"We both know the old dodderer<br />means well, but you've got to<br />admit He's a bit misguided.<br />We've got brains, we've got time -<br />let's go, see what <i>we</i> can do!"<br /><br />"Are you kidding?!"<br />rejoined the elder.<br />"We have a real base here! It's true<br />the Old Man is a bit tiresome, but <br />this farm's a solid investment!<br />Soon He'll die, and we can run things<br />the way they <i>should</i> be done! Or at least<br />not pretend so much&hellip;"<br /><br />So the younger ran out one way<br />and threw away his lot, while<br />the other toiled and strained and<br />worked long years on <br />his share of the plot.<br /><br />And all the while the Father grieved<br />for the day His two lost sons would<br />come back to His heart, and Home.</div>
 
 ]]></content>
   </entry>
