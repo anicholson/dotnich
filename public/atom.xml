@@ -4,7 +4,7 @@
   <title><![CDATA[andrewdotnich]]></title>
   <link href="http://andrewdotni.ch//atom.xml" rel="self"/>
   <link href="http://andrewdotni.ch//"/>
-  <updated>2013-02-21T09:07:19+11:00</updated>
+  <updated>2013-02-25T14:31:00+11:00</updated>
   <id>http://andrewdotni.ch//</id>
   <author>
     <name><![CDATA[Andy Nicholson]]></name>
@@ -18,7 +18,8 @@
     <link href="http://andrewdotni.ch//blog/2013/02/21/ruby-conf-2013/"/>
     <updated>2013-02-21T08:57:00+11:00</updated>
     <id>http://andrewdotni.ch//blog/2013/02/21/ruby-conf-2013</id>
-    <content type="html"><![CDATA[<p>Today and tomorrow, I&#8217;m attending RubyConf AU with my colleages from <a href="http://www.locomote.com.au">Locomote</a>. If anything sticks out from my notes, I&#8217;ll try and edit it and put it up, but it&#8217;s going to be a very busy few days!</p>
+    <content type="html"><![CDATA[<p>Today and tomorrow, I&#8217;m attending RubyConf AU with my colleages from <a href="http://www.locomote.com.au">Locomote</a>. If anything sticks out from my notes, I&#8217;ll try and edit it and put it up, but it&#8217;s going to be a very busy few days!
+x</p>
 ]]></content>
   </entry>
   

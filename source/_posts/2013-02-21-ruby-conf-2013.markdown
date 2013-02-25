@@ -11,3 +11,4 @@ categories:
 ---
 
 Today and tomorrow, I'm attending RubyConf AU with my colleages from [Locomote](http://www.locomote.com.au). If anything sticks out from my notes, I'll try and edit it and put it up, but it's going to be a very busy few days!
+x
