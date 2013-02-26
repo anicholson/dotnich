@@ -1,6 +1,6 @@
 require 'bundler/setup'
 require 'sinatra/base'
-
+require 'sinatra/reloader'
 # The project root directory
 $root = ::File.dirname(__FILE__)
 
