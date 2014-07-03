@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: post
 title: "Eight tentacles"
 date: 2013-02-03 15:45

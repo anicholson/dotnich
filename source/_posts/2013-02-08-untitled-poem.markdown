@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: post
 title: "[untitled poem]"
 date: 2013-02-08 15:23

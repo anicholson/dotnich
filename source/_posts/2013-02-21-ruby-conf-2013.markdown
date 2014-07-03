@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: post
 title: "require 'ruby_conf_2013'"
 date: 2013-02-21 08:57
