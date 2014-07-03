@@ -4,6 +4,7 @@ layout: post
 title: "require 'ruby_conf_2013'"
 date: 2013-02-21 08:57
 comments: true
+published: false
 categories:
  - sofware
  - conferences
