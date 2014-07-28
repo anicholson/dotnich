@@ -8,22 +8,32 @@ footer: true
 ---
 # pr&eacute;cis
 
-Hi! I'm a 28-year-old software developer from Melbourne, Australia. Call me Andy :)
+Hi! I'm a 28-year-old software developer from Melbourne, Australia. Please call me Andy :)
 
-I pick up new languages, concepts, and technologies quickly. My career so far has called on me to learn and use PHP, Python, and Javascript, but right now I mostly write code in Ruby. I thrive in the gap between the problem space and the solution. I'm warm and friendly, and easy to get along with.
+Here&apos;s what you need to know about me:
 
-3) I'm known for taking an idea and picking it to pieces. I have a knack for asking the right questions, and then thinking of the right answers.
+* I have been interested in technology since childhood (first an IBM XT, then a 386!), and people since becoming an adult.
 
-4) Hitwise, Locomote, CoreMind, Messagexchange.
+* I pick up new languages, concepts, and technologies quickly. My career so far has called on me to learn and use PHP, Python, and Javascript, but right now I mostly write code in [Ruby][2].
 
-5) I believe in good UX, elegant design, and clean, well-written code. I believe that I am a "Terrible Programmer", and this helps me critique what I build.
+* I'm warm and friendly, and easy to work with.
 
-6)
+* I want to really understand the problem I'm trying to solve - how else can I discover the best solution?
 
-7) When I'm not working, I enjoy poking around old record shops, or tackling the cryptic crossword in the newspaper with my wife. I love food and drink that's made with care - but beer and coffee are my true loves, beveragely-speaking.
+* I'm known for taking an idea and picking it to pieces. I have a knack for asking the right questions, and then finding the right answers.
 
-8) I have been interested in technology since childhood (XT, 386), and people since becoming an adult.
+* I've [worked for][3] startups, small companies, larger software houses, and in the service industry.
 
-9) I grew up in Brisbane, when good coffee was "Nescafe Gold" and international cuisine was from the Chinese Takeaway down the road. It's a different city now, but I don't regret moving to Melbourne with my family in 2003.
+* I believe in good UX, elegant design, and clean, well-written code. I believe that I am a *[Terrible Programmer][1]*, and this helps me critique what I build.
 
-10) I love my church, and I play piano there in one of the bands. I also play harmonica, and am teaching myself to play this strange contraption!
+* When I'm not working, I enjoy poking around old record shops, or tackling the cryptic crossword in the newspaper with my wife. I love food and drink that's made with care - but beer and coffee are my true loves, beveragely-speaking.
+
+* I grew up in Brisbane, when good coffee was "Nescafe Gold" and international cuisine was from the Chinese Takeaway down the road. It's a different city now, but I don't regret moving to Melbourne with my family in 2003.
+
+* I love [my church][5], and I play piano there in one of the bands. I also play harmonica, and am teaching myself to play [this strange contraption][4]!
+
+[1]: http://blog.kickin-the-darkness.com/2007/09/confessions-of-terrible-programmer.html
+[2]: http://ruby-lang.org
+[3]: http://au.linkedin.com/in/anicholson/
+[4]: http://marcodi.com/
+[5]: http://www.christchurchhawthorn.org/
