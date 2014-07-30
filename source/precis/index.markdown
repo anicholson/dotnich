@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "about"
+title: "précis"
 date: 2014-07-21 13:50
 comments: false
 sharing: true
