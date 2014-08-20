@@ -4,7 +4,7 @@
   <title><![CDATA[andrewdotnich]]></title>
   <link href="http://andrewdotni.ch//atom.xml" rel="self"/>
   <link href="http://andrewdotni.ch//"/>
-  <updated>2014-08-16T12:53:10+10:00</updated>
+  <updated>2014-08-20T14:41:54+10:00</updated>
   <id>http://andrewdotni.ch//</id>
   <author>
     <name><![CDATA[Andy Nicholson]]></name>
@@ -12,6 +12,42 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Tech Talks: August 2014]]></title>
+    <link href="http://andrewdotni.ch//blog/2014/08/20/talks-august-2014/"/>
+    <updated>2014-08-20T11:28:17+10:00</updated>
+    <id>http://andrewdotni.ch//blog/2014/08/20/talks-august-2014</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve recently been enjoying refreshing my Ruby testing &amp; design skills, and these 3 talks have been excellent. They&rsquo;re not new talks; I&rsquo;ve seen some of them before. It never hurts to be reminded about good design and good practices!</p>
+
+<h3>The Magic Tricks of Testing</h3>
+
+<h4>Sandi Metz</h4>
+
+<iframe width="853" height="480" src="//www.youtube-nocookie.com/embed/URSWYvyc42M?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<p><strong>Watch it because:</strong> the rules for unit testing minimalism are actually kind of simple - we just need to remember them!</p>
+
+<h3>Yay! Mocks!</h3>
+
+<h4>Corey Haines</h4>
+
+<iframe width="853" height="480" src="//www.youtube-nocookie.com/embed/t430e6M5YAo?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<p><strong>Watch it because:</strong> Listen to your tests! If you&rsquo;re finding pain in your tests, it&rsquo;s a compelling reason to rethink your design. Also cats.</p>
+
+<h3>Refactoring from Good to Great</h3>
+
+<h4>Ben Orenstein</h4>
+
+<iframe width="853" height="480" src="//www.youtube-nocookie.com/embed/DC-pQPq0acs?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<p><strong>Watch it because:</strong> <code>vim</code> ninja! The entire talk is done inside <code>vim</code>. Highly practical, and good arguments for keeping your public interfaces understandable.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Books I'm Reading: August 2014]]></title>
@@ -278,16 +314,6 @@ Winter time draws near / Seasonal Affective Dis-/ Orders me about<br /><br /><br
     <id>http://andrewdotni.ch//blog/2011/04/14/voice-part-1</id>
     <content type="html"><![CDATA[<div class='post'>
 &#8220;Be still,&#8221; the Voice said.<br />&#8220;Be still? Are you kidding?&#8221; I thought.<br /><br />I&#8217;ve got to get my<br />my views opined<br />doctrines aligned<br />vices maligned<br />sins disinclined<br /><br />My style designed<br />life plan outlined<br />hobbies defined<br />a wife to find<br />that You&#8217;ve assigned somewhere, presumably<br /><br />and bear in mind<br />I&#8217;ve got the daily grind<br />sucks out the zest, the lemon rind<br />of life that comes and perks the mind<br /><br />and all of these combined<br />just serve to take my bind<br />and wind it up<br />so this is why like most mankind<br />I&#8217;m disinclined<br />to lie inclined<br />and listen to<br />Your still, small Voice.</div>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Sin & its aftermath]]></title>
-    <link href="http://andrewdotni.ch//blog/2011/04/07/sin-its-aftermath/"/>
-    <updated>2011-04-07T10:00:00+10:00</updated>
-    <id>http://andrewdotni.ch//blog/2011/04/07/sin-its-aftermath</id>
-    <content type="html"><![CDATA[<div class='post'>
-I love it when one stumbles across a gem. I found the Tenth Leper blog through a friend because of the recent Rob Bell unpleasantness, but I&#8217;ve kept him in my feeds now that his reviews are done because I really like the stuff he has to say. Take this from <a href="http://thetenthleper.com/2011/04/06/the-importance-of-christian-identity-in-the-fight-against-sin/">today&#8217;s post</a>:<br /><br /><blockquote>I think some of Satan’s biggest victories against us are not in his getting us to commit a particular sin, but in increasing our guilt over it.  It’s like that old proverb: “Give a man a fish and you feed him for a day.  Teach a man to fish and you feed him for a lifetime.”  Similarly, get a man to sin and you’ll separate him from God for a moment.  But get a man to feel guilty, and you’ll separate him from God forever.  Guilt causes us to believe that God doesn’t want us, that his arms aren’t open to us, that his attention can’t be grabbed except by maybe extreme effort.  It causes us to believe that we’re damaged goods and that God couldn’t possibly still want us.<br /><p>I don’t think it’s too bold to say that the moments after sin can be more dangerous than the moments before it.  How you respond to sin is so important.  Will you move further away from your only source of life and help as a result of it?  Or will you move closer to him?  We need to preach the Gospel to ourselves every day because we sin every day, and the more we sin, the more we’re reminded that on our own we have absolutely no right to speak with God.  But we need to let that drive us to Jesus as our only right to be in the presence of God.  Jesus killed sin’s guilt.  And because there’s no longer any guilt or condemnation for God’s children, then sin’s power begins to diminish in their lives, because they’re confidently running to their Father for strength.<br /></blockquote><br />Where do you run?</div>
 ]]></content>
   </entry>
   
