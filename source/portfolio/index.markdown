@@ -19,6 +19,13 @@ I decided to knock up a quick CLI tool that I could use to score bugs for my pro
 
 [Code on Github][3]
 
+## GS1net Code List Editor <i class='icon-javascript'></i>
+GS1 is a non-profit organisation that looks after retail product information. They have lots of code lists describing various attributes a product may have. These are fiddly to edit, so I created this little app to make life easier for the BAs on my product team :)
+
+<img src="/images/gs1_code_editor.png">
+
+[Go to site][4]
+
 ## Mining Depot <i class='icon-ruby'></i>
 
 Ever since auditing a subject on concurrency at University, I've wanted to build something that was threaded from the ground up. Since most of my work right now is Web-based, I don't get many opportunities to learn about threading! So I'm building this to learn how to build portable, thread-safe &amp; highly-concurrent code in Ruby.
@@ -41,3 +48,4 @@ Ideas for frontends:
 [1]: http://github.com/anicholson/mining_depot
 [2]: http://github.com/anicholson/mining_frontends
 [3]: http://github.com/anicholson/pain
+[4]: http://gs1net-codelist-editor.herokuapp.com/
