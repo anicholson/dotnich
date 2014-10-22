@@ -14,6 +14,7 @@ group :development do
   gem 'sass-globbing',      '~> 1.0.0'
   gem 'rubypants',          '~> 0.2.0'
   gem 'rb-fsevent',         '~> 0.9'
+  gem 'therubyracer'
 end
 
 gem 'stringex',             '~> 1.4.0'
