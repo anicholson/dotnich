@@ -4,7 +4,7 @@
   <title><![CDATA[Category: above all human | andrewdotnich]]></title>
   <link href="http://andrewdotni.ch//blog/categories/above-all-human/atom.xml" rel="self"/>
   <link href="http://andrewdotni.ch//"/>
-  <updated>2014-12-12T11:31:43+11:00</updated>
+  <updated>2014-12-12T12:49:31+11:00</updated>
   <id>http://andrewdotni.ch//</id>
   <author>
     <name><![CDATA[Andy Nicholson]]></name>
@@ -12,6 +12,51 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[AAH14: Waleed Aly]]></title>
+    <link href="http://andrewdotni.ch//blog/2014/12/12/aah14-waleed-aly/"/>
+    <updated>2014-12-12T11:48:35+11:00</updated>
+    <id>http://andrewdotni.ch//blog/2014/12/12/aah14-waleed-aly</id>
+    <content type="html"><![CDATA[<h2>AAH14 Keynote - Waleed Aly: Ethics &amp; Technology</h2>
+
+<p><a href="http://en.wikipedia.org/wiki/Waleed_Aly">Waleed Aly</a> considered himself a strange guest speaker for a tech conference, given his background in journalism, political science &amp; law. I disagree, though - especially for a conference focusing on humanity.</p>
+
+<p>He challenged us to think about the ethics of the space we’re working in at both micro and macro levels, and used philosophy as a backdrop for the conversation.</p>
+
+<p>The world of philosophy is often ignored, but it provides invaluable questions of “Why?” and “Should?” that engineering, as a “How?” discipline, simply cannot.</p>
+
+<h3>micro</h3>
+
+<p>Q: “Are there inherent ethical challenges to the technology I’m working on?” is a question we don’t ask ourselves enough. The tech sector has a tendency to focus on what is possible first, then work out whether we should afterwards (usually after it’s too late and we’ve already done it).</p>
+
+<p>Take (as Waleed did) driverless cars. He transposed them into the famous <a href="http://en.wikipedia.org/wiki/Trolley_problem">“Trolley Problem”</a> - where split-second decisions have moral questions. We afford ourselves a certain slack because in that situation it’s hard to know what we would choose. What about a machine, that by definition has to be told how to think? How should <em>it</em> answer the question? Even as technologists, ethics problems are <em>our</em> problems.</p>
+
+<h3>macro, or the myth of “neutral technology”</h3>
+
+<p>Q: Why do we tell ourselves technology is “neutral”, when it so often ends up causing changes for good and bad?</p>
+
+<p>The introduction of the car changed forever the notion of the city. Television changed forever the notion of mass communication.</p>
+
+<p>We tell ourselves that our technological changes (new platforms new media) are neutral - or at least that the net good will outweigh the bad. Why do we do this?</p>
+
+<p>We talk about “the death of print” in the news industry, and assert that journalistic standards shouldn’t change. But how could we assume that standards wouldn’t change when new technology allows us to optimise speed over accuracy like never before?</p>
+
+<p>We build drones, and drones that can wage war without people present. But what would war look like when attackers needn’t fear loss of their own life? Would they be more aggressive and kill more people? Or would they save lives by being more precise?</p>
+
+<p>Waleed suggested that the tech industry perhaps unsurprisingly has more progressively-minded people in it than conservatively-minded. If we recognised that, perhaps we would make better-informed decisions about the social impacts our technological decisions might have.</p>
+
+<h3>aside: Technology &amp; Worldview</h3>
+
+<p>During Waleed’s Q&amp;A, someone asked questions as “a self-confessed ethics n00b.”. He worried the ethical conversations ended up being a waste of time because he left with more questions than answers!</p>
+
+<p>That fascinated me, because we like to pretend we make decisions in a vacuum, or guided by “reason, science, facts, etc.” And, to an extent, we all do.</p>
+
+<p>But we also see every fact, every piece of information through lenses, or worldviews. To deny that is the very essence of cognitive bias!</p>
+
+<p>How could we, as people working in a quickly-changing industry, incorporate more mindfulness of our worldviews into what we do?</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Above all Human 2014]]></title>
