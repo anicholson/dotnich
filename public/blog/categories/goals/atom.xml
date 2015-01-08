@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: goals | andrewdotnich]]></title>
+  <link href="http://andrewdotni.ch//blog/categories/goals/atom.xml" rel="self"/>
+  <link href="http://andrewdotni.ch//"/>
+  <updated>2015-01-08T14:06:08+11:00</updated>
+  <id>http://andrewdotni.ch//</id>
+  <author>
+    <name><![CDATA[Andy Nicholson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Welcome to 2015]]></title>
+    <link href="http://andrewdotni.ch//blog/2015/01/08/welcome-to-2015/"/>
+    <updated>2015-01-08T13:54:53+11:00</updated>
+    <id>http://andrewdotni.ch//blog/2015/01/08/welcome-to-2015</id>
+    <content type="html"><![CDATA[<p>Hi everyone!</p>
+
+<p>Another year has been and gone, and now 2015 extends before us as the Not Yet becomes the Has Been.</p>
+
+<p>I have a few goals this year:</p>
+
+<ul>
+<li>Say ‘no’ to more, and finish the ‘yeses’</li>
+<li>Build routine</li>
+<li>Tell more stories, better.</li>
+</ul>
+
+
+<p>To achieve this, I’m limiting myself to the following two simple rules:</p>
+
+<blockquote><ul>
+<li>You get <strong>one project</strong> a month.</li>
+<li>You <strong>have to finish</strong> that project within the month.</li>
+<li><strong>Tell the story</strong> of that project, <strong>good or bad</strong>. “I just didn’t” makes a terrible story.</li>
+</ul>
+</blockquote>
+
+<p>Like an agile project, I’ll maintain a backlog of projects, and if I choose to prioritise them then well and good. But during the month, I’ll focus just on that project.</p>
+
+<p>Let’s see what happens :)</p>
+]]></content>
+  </entry>
+  
+</feed>
