@@ -17,7 +17,7 @@ I have a few goals this year:
 * Build routine
 * Tell more stories, better.
 
-To achieve this, I’m limiting myself to the following two simple rules:
+To achieve this, I’m limiting myself to the following <s>two</s>  three simple rules:
 
 > * You get **one project** a month.
 > * You **have to finish** that project within the month.
