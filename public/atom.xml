@@ -4,7 +4,7 @@
   <title><![CDATA[andrewdotnich]]></title>
   <link href="http://andrewdotni.ch//atom.xml" rel="self"/>
   <link href="http://andrewdotni.ch//"/>
-  <updated>2014-12-12T12:49:31+11:00</updated>
+  <updated>2015-01-08T14:09:22+11:00</updated>
   <id>http://andrewdotni.ch//</id>
   <author>
     <name><![CDATA[Andy Nicholson]]></name>
@@ -12,6 +12,39 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Welcome to 2015]]></title>
+    <link href="http://andrewdotni.ch//blog/2015/01/08/welcome-to-2015/"/>
+    <updated>2015-01-08T13:54:53+11:00</updated>
+    <id>http://andrewdotni.ch//blog/2015/01/08/welcome-to-2015</id>
+    <content type="html"><![CDATA[<p>Hi everyone!</p>
+
+<p>Another year has been and gone, and now 2015 extends before us as the Not Yet becomes the Has Been.</p>
+
+<p>I have a few goals this year:</p>
+
+<ul>
+<li>Say ‘no’ to more, and finish the ‘yeses’</li>
+<li>Build routine</li>
+<li>Tell more stories, better.</li>
+</ul>
+
+
+<p>To achieve this, I’m limiting myself to the following two simple rules:</p>
+
+<blockquote><ul>
+<li>You get <strong>one project</strong> a month.</li>
+<li>You <strong>have to finish</strong> that project within the month.</li>
+<li><strong>Tell the story</strong> of that project, <strong>good or bad</strong>. “I just didn’t” makes a terrible story.</li>
+</ul>
+</blockquote>
+
+<p>Like an agile project, I’ll maintain a backlog of projects, and if I choose to prioritise them then well and good. But during the month, I’ll focus just on that project.</p>
+
+<p>Let’s see what happens :)</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[AAH14: Waleed Aly]]></title>
@@ -476,16 +509,6 @@ Sunlight streaming through my window/<br />urging me to go and do/<br />all I wa
     <id>http://andrewdotni.ch//blog/2011/06/06/prodigal-brothers-in-arms</id>
     <content type="html"><![CDATA[<div class='post'>
 &#8220;Are we so different?&#8221;<br />younger brother calls to elder.<br />&#8220;We both know the old dodderer<br />means well, but you&#8217;ve got to<br />admit He&#8217;s a bit misguided.<br />We&#8217;ve got brains, we&#8217;ve got time -<br />let&#8217;s go, see what <i>we</i> can do!&#8221;<br /><br />&#8220;Are you kidding?!&#8221;<br />rejoined the elder.<br />&#8220;We have a real base here! It&#8217;s true<br />the Old Man is a bit tiresome, but <br />this farm&#8217;s a solid investment!<br />Soon He&#8217;ll die, and we can run things<br />the way they <i>should</i> be done! Or at least<br />not pretend so much&hellip;&#8221;<br /><br />So the younger ran out one way<br />and threw away his lot, while<br />the other toiled and strained and<br />worked long years on <br />his share of the plot.<br /><br />And all the while the Father grieved<br />for the day His two lost sons would<br />come back to His heart, and Home.</div>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[like a child…]]></title>
-    <link href="http://andrewdotni.ch//blog/2011/05/17/like-child/"/>
-    <updated>2011-05-17T23:06:00+10:00</updated>
-    <id>http://andrewdotni.ch//blog/2011/05/17/like-child</id>
-    <content type="html"><![CDATA[<div class='post'>
-&#8220;Don&#8217;t worry, Dad, I&#8217;m a big kid now!&#8221; exclaimed the lad, straining under the weight of a big box of this-and-that. His Father smiled knowingly to Himself. The more he changed, the more he seemed to stay the same. &#8220;But he is growing,&#8221; He said to himself. &#8220;And becoming more like his Brother every day.&#8221;<br />And then there was a crash and a cry from down the hall, and the Father rushed to clean up the newly-created mess of boy and <i>bric-à-brac</i>.</div>
 ]]></content>
   </entry>
   
