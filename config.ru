@@ -2,6 +2,7 @@ require 'bundler/setup'
 require 'sinatra/base'
 require 'rack/contrib'
 require 'rack/cache'
+require 'dalli'
 
 # The project root directory
 $root = ::File.dirname(__FILE__)
