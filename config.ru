@@ -1,24 +1,41 @@
 require 'bundler/setup'
 require 'sinatra/base'
+require 'rack/contrib'
+require 'rack/cache'
+
 # The project root directory
 $root = ::File.dirname(__FILE__)
 
-class SinatraStaticServer < Sinatra::Base
+CACHE_CLIENT = if ENV['RACK_ENV'] == 'production'
+                 Dalli::Client.new((ENV["MEMCACHIER_SERVERS"] || "").split(","),
+                                   :username => ENV["MEMCACHIER_USERNAME"],
+                                   :password => ENV["MEMCACHIER_PASSWORD"],
+                                   :failover => true,
+                                   :socket_timeout => 1.5,
+                                   :socket_failure_delay => 0.2,
+                                   :value_max_bytes => 1048576)
+               else
+                 'file:///tmp'
+               end
 
-  get(/.+/) do
-    send_sinatra_file(request.path) {404}
+class Website < Sinatra::Base
+  before do
+    cache_control :public, :must_revalidate, :max_age => 68000
   end
 
-  not_found do
-    send_file(File.join(File.dirname(__FILE__), 'public', '404.html'), {:status => 404})
-  end
+  use Rack::TryStatic,
+      root: 'public',
+      urls: %w[/],
+      try:  ['.html', 'index.html', '/index.html']
 
-  def send_sinatra_file(path, &missing_file_block)
-    file_path = File.join(File.dirname(__FILE__), 'public',  path)
-    file_path = File.join(file_path, 'index.html') unless file_path =~ /\.[a-z]+$/i
-    File.exist?(file_path) ? send_file(file_path) : missing_file_block.call
-  end
+  use Rack::Cache,
+      :verbose     => true,
+      :metastore   => CACHE_CLIENT,
+      :entitystore => CACHE_CLIENT,
+      :default_ttl => 36_000
 
 end
 
-run SinatraStaticServer
+use Rack::ETag
+use Rack::Deflater
+run Website

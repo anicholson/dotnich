@@ -20,4 +20,8 @@ end
 gem 'stringex',             '~> 1.4.0'
 gem 'rake',                 '~> 10.0'
 gem 'sinatra',              '~> 1.4.2'
+gem 'dalli'
+gem 'kgio'
+gem 'rack-cache'
+gem 'rack-contrib'
 gem 'puma'
