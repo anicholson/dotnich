@@ -4,7 +4,7 @@
   <title><![CDATA[andrewdotnich]]></title>
   <link href="http://andrewdotni.ch//atom.xml" rel="self"/>
   <link href="http://andrewdotni.ch//"/>
-  <updated>2015-01-08T16:36:42+11:00</updated>
+  <updated>2015-01-10T16:59:47+11:00</updated>
   <id>http://andrewdotni.ch//</id>
   <author>
     <name><![CDATA[Andy Nicholson]]></name>
@@ -12,6 +12,57 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Project Nov-Dec 2014: Making Soap]]></title>
+    <link href="http://andrewdotni.ch//blog/2015/01/10/making-soap/"/>
+    <updated>2015-01-10T16:55:01+11:00</updated>
+    <id>http://andrewdotni.ch//blog/2015/01/10/making-soap</id>
+    <content type="html"><![CDATA[<h2>Why make soap?</h2>
+
+<p>So much of what we do as software developers is intangible - you can’t taste, touch, smell or feel code! I wanted to make something that was all of those (well, maybe not taste).</p>
+
+<p>In 2011, I took a trip to the Middle East, where I visited a soap factory in Sidon, Lebanon. The same trip I bought some soap from Aleppo, Syria, and thought it was the most wonderful soap I’d ever used. Deep green, with a thick brown patina, it felt exotic to use and wonderful on the skin.</p>
+
+<p>I decided that I would try my hand at soap-making. I’d never done much practical chemistry, and the thought of turning something you eat into something you could wash with was fun.</p>
+
+<h2>How does it work?</h2>
+
+<p>At one level, soap is Chemistry 101. You mix an acid with a base, you get a neutral salt. Soap is made up of two main components:</p>
+
+<ul>
+<li>Lye (NaOH), which is a base</li>
+<li>Some sort of oil, which is full of fatty acids.</li>
+</ul>
+
+
+<p>With the right proportions and a good stirring arm, you’ll end up with soap!</p>
+
+<h2>Did you learn anything?</h2>
+
+<p>Apart from how to make soap, I did learn a few things.</p>
+
+<h3>Be Prepared</h3>
+
+<p>Like lots of activities, soap-making works best if you have everything you need before you start. You also have lots of choices: what kind of oils will you use? Will you scent it? Will you follow the “hot” process or the “cold” process?</p>
+
+<p>Because I’d thought ahead about my answers to these questions, I was ready when a block of time became available. I had what I needed, and I didn’t need to run out and look for an ingredient because I was ready.</p>
+
+<h3>Be Precise</h3>
+
+<p>Soap recipes are quite precise. I actually found the precision required comforting, for two reasons:</p>
+
+<p><strong>It helped me to concentrate on what I was doing.</strong>. Knowing too much lye or not enough stirring would ruin my batch scared me into focusing, being fully present.</p>
+
+<p><strong>It told me what to do next.</strong> I didn’t have to make lots of decisions on the fly, and I could concentrate more on executing instead.</p>
+
+<h3>Be Patient &amp; Persistent</h3>
+
+<p>I knew what I wanted to do, and what I thought it would look like at the end. I still needed to do all the work required to go from ingredients to finished product. Following through and finishing gave me the real pleasure and satisfaction of a project completed. I got to use what I made, and I had pleasure in giving some away as gifts.</p>
+
+<p>I’ll take these insights into my software projects, and my approach at work. I’m going to spell out what I need to do before I start, eliminate more distractions, and be thorough so when it’s done, it’s done.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Welcome to 2015]]></title>
@@ -499,16 +550,6 @@ Sunlight streaming through my window/<br />urging me to go and do/<br />all I wa
     <id>http://andrewdotni.ch//blog/2011/06/22/voice-part-3</id>
     <content type="html"><![CDATA[<div class='post'>
 <i>&#8220;Trust Me with all your heart,&#8221;</i> You said.<br /><i>&#8220;Why?&#8221;</i> I thought, repulsed.<br /><br /><i>&#8220;Don&#8217;t rely on your own perspective,&#8221;</i> You said —<br />but that made no sense at all.<br /><br /><i>&#8220;Wherever you go, realize I&#8217;m there, working,&#8221;</i> You said.<br /><i>&#8220;What have you ever done for me?&#8221;</i> I retorted.<br /><br /><i>&#8220;I&#8217;ll tell you where to go,&#8221;</i> You said.<br />And I thought <i>&#8220;I&#8217;m sure you will!&#8221;</i><br /><hr /><br />There was silence for a few seconds, as You quizzically raised an eyebrow to say <i>&#8220;Really? Not even you believe that!&#8221;</i><br /><br /><small><i>*sigh*</i></small>You were right, as usual. <br /><br />And then You leaned over, gave me a hug, and said <i>&#8220;Come on, let&#8217;s go this way…&#8221;</i><br /><hr/><br /><small>(Proverbs 3:5,6; Malachi1:2a)</small></div>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Prodigal brothers in arms]]></title>
-    <link href="http://andrewdotni.ch//blog/2011/06/06/prodigal-brothers-in-arms/"/>
-    <updated>2011-06-06T23:26:00+10:00</updated>
-    <id>http://andrewdotni.ch//blog/2011/06/06/prodigal-brothers-in-arms</id>
-    <content type="html"><![CDATA[<div class='post'>
-&#8220;Are we so different?&#8221;<br />younger brother calls to elder.<br />&#8220;We both know the old dodderer<br />means well, but you&#8217;ve got to<br />admit He&#8217;s a bit misguided.<br />We&#8217;ve got brains, we&#8217;ve got time -<br />let&#8217;s go, see what <i>we</i> can do!&#8221;<br /><br />&#8220;Are you kidding?!&#8221;<br />rejoined the elder.<br />&#8220;We have a real base here! It&#8217;s true<br />the Old Man is a bit tiresome, but <br />this farm&#8217;s a solid investment!<br />Soon He&#8217;ll die, and we can run things<br />the way they <i>should</i> be done! Or at least<br />not pretend so much&hellip;&#8221;<br /><br />So the younger ran out one way<br />and threw away his lot, while<br />the other toiled and strained and<br />worked long years on <br />his share of the plot.<br /><br />And all the while the Father grieved<br />for the day His two lost sons would<br />come back to His heart, and Home.</div>
 ]]></content>
   </entry>
   
