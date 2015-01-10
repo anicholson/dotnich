@@ -6,6 +6,7 @@ comments: true
 categories: 
 ---
 ##  Why make soap?
+
 So much of what we do as software developers is intangible - you can’t taste, touch, smell or feel code! I wanted to make something that was all of those (well, maybe not taste).
 
 In 2011, I took a trip to the Middle East, where I visited a soap factory in Sidon, Lebanon. The same trip I bought some soap from Aleppo, Syria, and thought it was the most wonderful soap I’d ever used. Deep green, with a thick brown patina, it felt exotic to use and wonderful on the skin.
@@ -19,6 +20,11 @@ At one level, soap is Chemistry 101. You mix an acid with a base, you get a neut
 - Some sort of oil, which is full of fatty acids.
 
 With the right proportions and a good stirring arm, you’ll end up with soap!
+
+<figure style='margin-left:auto; margin-right:auto; width:100%'>
+  <img src='/images/aleppo_soap.jpg'>
+  <figcaption><em>This isn't mine.</em></figcaption>
+</figure>
 
 ## Did you learn anything?
 Apart from how to make soap, I did learn a few things.
