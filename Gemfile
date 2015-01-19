@@ -1,7 +1,5 @@
 source "https://rubygems.org"
 
-ruby '2.1.2'
-
 group :development do
   gem 'jekyll',             '~> 2.0'
   gem 'jekyll-page-hooks',  '~> 1.2'
