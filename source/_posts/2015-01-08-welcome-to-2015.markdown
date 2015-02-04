@@ -26,3 +26,10 @@ To achieve this, I’m limiting myself to the following <s>two</s>  three simple
 Like an agile project, I’ll maintain a backlog of projects, and if I choose to prioritise them then well and good. But during the month, I’ll focus just on that project.
 
 Let’s see what happens :)
+
+## Projects
+
+1. Baby Sleep Monitor
+	* [Iteration 0][1]
+
+[1]: /blog/2015/01/30/baby-sleep-monitor/
