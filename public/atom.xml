@@ -4,7 +4,7 @@
   <title><![CDATA[andrewdotnich]]></title>
   <link href="http://andrewdotni.ch//atom.xml" rel="self"/>
   <link href="http://andrewdotni.ch//"/>
-  <updated>2015-01-19T22:01:57+11:00</updated>
+  <updated>2015-02-05T09:18:52+11:00</updated>
   <id>http://andrewdotni.ch//</id>
   <author>
     <name><![CDATA[Andy Nicholson]]></name>
@@ -12,6 +12,49 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Project 1, Iteration 0: Baby Sleep Monitor]]></title>
+    <link href="http://andrewdotni.ch//blog/2015/01/30/baby-sleep-monitor/"/>
+    <updated>2015-01-30T18:04:27+11:00</updated>
+    <id>http://andrewdotni.ch//blog/2015/01/30/baby-sleep-monitor</id>
+    <content type="html"><![CDATA[<p>Earlier this year, I <a href="http://andrewdotni.ch//blog/2015/01/08/welcome-to-2015/">resolved to complete more projects</a>, and this is the first!</p>
+
+<p>In just a few months time, I’m going to become a father for the first time. Being an expectant parent, and having some electronics lying around, I thought I’d combine the two!</p>
+
+<p>The idea for this came from a <a href="http://blog.technical.io/post/100161311142/tessel-keen-io">Tessel blog post</a> - taking readings from their modules and sending them directly to a cloud data service. I didn’t want (or think I’d get away with!) bare circuit boards in my newborn’s nursery, so I decided to make a small cover for the board as well.</p>
+
+<p>I’ll be upfront: it’s not quite finished yet. I’m annoyed about that. But in the interests of accountability &amp; transparency, iteration 0 is done!</p>
+
+<p><img src='http://andrewdotni.ch//images/monitor_topless.jpg'>
+<img src='http://andrewdotni.ch//images/monitor_with_top.jpg'></p>
+
+<p>I made a couple of errors, which I’ll fix when I do iteration 1.</p>
+
+<ul>
+<li>I got the holes <em>almost</em> lined up correctly, but not enough to make the bolts sit smoothly with the PCB. I’ve got to be more precise.</li>
+<li>I also painted the boards before drilling the holes (because I was ready to paint but not to drill) - sometimes you just have to be blocked.</li>
+</ul>
+
+
+<h2>What I wanted to discover</h2>
+
+<ul>
+<li>That I could simply pick up a new skill, and easily execute what I wanted to do. (This looks really embarrassing when I write it down!)</li>
+</ul>
+
+
+<h2>What I learned instead</h2>
+
+<ul>
+<li>I’m not as good with my hands as I thought.</li>
+<li>Knowing what I want might be a good step towards the result, but it’s foolish to think I can get there in one step.</li>
+<li>For me, better preparation is more important than feeling like I’m moving.</li>
+<li>Iteration is totally acceptable.</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Kata: Bowling]]></title>
@@ -371,6 +414,18 @@ end</code></pre></noscript></div>
 <p>Like an agile project, I’ll maintain a backlog of projects, and if I choose to prioritise them then well and good. But during the month, I’ll focus just on that project.</p>
 
 <p>Let’s see what happens :)</p>
+
+<h2>Projects</h2>
+
+<ol>
+<li>Baby Sleep Monitor
+
+<ul>
+<li><a href="http://andrewdotni.ch//blog/2015/01/30/baby-sleep-monitor/">Iteration 0</a></li>
+</ul>
+</li>
+</ol>
+
 ]]></content>
   </entry>
   
@@ -797,16 +852,6 @@ Or maybe Huxley would just <a href="http://www.acceleratingfuture.com/michael/bl
 Oh wow, this totally hit home with me. I can so relate! Being a Gen-Y tech/facebook junky frustrates me no end. The days of concentrating seem to have disappeared&#8230;.but I&#39;m determined to rediscover them somehow.</div>
 </div>
 </div>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[A curious beast]]></title>
-    <link href="http://andrewdotni.ch//blog/2011/08/01/curious-beast/"/>
-    <updated>2011-08-01T10:38:00+10:00</updated>
-    <id>http://andrewdotni.ch//blog/2011/08/01/curious-beast</id>
-    <content type="html"><![CDATA[<div class='post'>
-Here a Rum-tum-tugg-o-war<br />A NY state of mind,<br />A yin & yang of fear defined<br />by pride and self-obsess galore…</div>
 ]]></content>
   </entry>
   
