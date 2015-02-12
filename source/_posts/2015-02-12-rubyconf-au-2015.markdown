@@ -28,7 +28,7 @@ We’re growing up, Ruby community – but it’s okay! Ruby isn’t great just 
 <blockquote class="twitter-tweet" lang="en"><p>What has been SUPER awesome about <a href="https://twitter.com/hashtag/RubyConf_AU?src=hash">#RubyConf_AU</a> is that despite not being a Rubyist, I got so much out of it &amp; felt so welcome. Thanks all &lt;3</p>&mdash; Liam Esler (@liamesler) <a href="https://twitter.com/liamesler/status/564033026695249920">February 7, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<img src='images/collis.jpg' />
+<img src='/images/collis.jpg' />
 
 # …the talks!
 
