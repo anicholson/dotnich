@@ -11,7 +11,7 @@ categories:
 ---
 
 # Background
-I’m keyboard/piano player, but I’m learning [the Harpejji G16](http://www.marcodi.com/) as well. When playing in my band, I’ve tried playing bass lines with my left hand on the keys, and leads on the harped with my right hand. Unfortunately, the stage piano I’ve been using is too big to sit nicely with the harped, and attempting V-like instrument arrangements simply gave me RSI. I needed something smaller that was really easy to use, with as little setup as switching on my current keyboard!
+I’m a keyboard/piano player, but I’m learning [the Harpejji G16](http://www.marcodi.com/) as well. When playing in my band, I’ve tried playing bass lines with my left hand on the keys, and leads on the harpejji with my right hand. Unfortunately, the stage piano I’ve been using is too big to sit nicely with the harpejji, and attempting V-like instrument arrangements simply gave me RSI. I needed something smaller that was really easy to use, with as little setup as switching on my current keyboard!
 Part of my [year of projects][1].
 # What you need for this Guide
 * A [Raspberry Pi](http://www.raspberrypi.org/), connected to the Internet. (I’m using an original Model B)
