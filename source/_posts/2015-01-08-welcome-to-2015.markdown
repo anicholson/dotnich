@@ -31,5 +31,7 @@ Let’s see what happens :)
 
 1. Baby Sleep Monitor
 	* [Iteration 0][1]
+2. [Raspberry Pi-based MIDI Synthesiser][2]
 
 [1]: /blog/2015/01/30/baby-sleep-monitor/
+[2]: /blog/2015/02/28/midi-synth-with-raspberry-p/
