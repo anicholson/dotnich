@@ -1,0 +1,4 @@
+<meta property="og:title" value="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}" />
+<meta property="og:description" value="{{ description | strip_html | condense_spaces | truncate:150 }}" />
+<meta property="og:url" value="{{ site.url }}{{ page.url }}" />
+<meta property="og:type" content="website" >
