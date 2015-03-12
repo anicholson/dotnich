@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby '2.0.0'
+ruby '2.1.0', engine: 'rbx', engine_version: '2.3.0'
 
 group :development do
   gem 'rb-fsevent',         '~> 0.9'
