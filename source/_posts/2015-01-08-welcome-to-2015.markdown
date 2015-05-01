@@ -33,5 +33,8 @@ Let’s see what happens :)
 	* [Iteration 0][1]
 2. [Raspberry Pi-based MIDI Synthesiser][2]
 
+3. [Kiva Snapshot][3]
+
 [1]: /blog/2015/01/30/baby-sleep-monitor/
 [2]: /blog/2015/02/28/midi-synth-with-raspberry-p/
+[3]: /blog/2015/04/30/kiva-snapshot/
