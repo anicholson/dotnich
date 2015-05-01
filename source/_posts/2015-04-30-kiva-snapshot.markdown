@@ -9,7 +9,7 @@ categories:
   - build people
 ---
 
-I started a small group of microfinance loaners. I've been building a mini site to give us a better picture of what we've achieved, and what we'd like to do next.
+I started a small group of microfinance loaners. I've been building a mini site to give us a better picture of what we've achieved, and what we'd like to do next. Part of my [year of projects](/blog/2015/01/08/welcome-to-2015/).
 
 # Build People
 
