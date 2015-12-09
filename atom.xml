@@ -1,136 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
 
-<!DOCTYPE HTML>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>build software, build people  | andrewdotnich</title>
+  <title><![CDATA[andrewdotnich]]></title>
+  <link href="http://andrewdotni.ch//atom.xml" rel="self"/>
+  <link href="http://andrewdotni.ch//"/>
+  <updated>2015-12-09T11:53:42+11:00</updated>
+  <id>http://andrewdotni.ch//</id>
+  <author>
+    <name><![CDATA[Andy Nicholson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
 
-<meta name="author" content="Andy Nicholson"> 
-
-<meta name="description" content="build software, build people"> <meta name="keywords" content="">
-
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-	<link href="/atom.xml" rel="alternate" title="andrewdotnich" type="application/atom+xml">
-	<link rel="canonical" href="">
-	<link href="/favicon.png" rel="shortcut icon">
-	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" >
-	<link rel="apple-touch-icon" href="/apple-touch-icon.png" >
-	<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png" >
-	<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" >
-	<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png" >
-	<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" >
-	<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png" >
-	<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" >
-	<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" >
-	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-	<link href="/stylesheets/font-awesome.min.css" rel="stylesheet" type="text/css">
-	<link href='/stylesheets/font-mfizz.css' rel='stylesheet' type='text/css'>
-	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	<script type="text/javascript" src="/javascripts/jquery.fancybox.pack.js"></script>
-
-<script language="Javascript" type="text/javascript">
-$(document).ready(
-  function() {
-    (function($) {
-      $(".fancybox[data-content-id]").each(function() {
-        this.href = $(this).data('content-id');
-      });
-      $(".fancybox").fancybox({
-        beforeLoad: function() {
-          var el, 
-              id = $(this.element).data('title-id');
-
-          if (id) {
-            el = $('#' + id);
-
-            if (el.length) {
-              this.title = el.html();
-            }
-          }
-          if ($(this).data('content')) {
-            this.content = $(this).data('content');
-          }
-        },
-        helpers: {
-          title: {
-            type: 'inside'
-          }
-        }
-      });
-    })(jQuery);
-  }
-);
-</script>
-
-	  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="andrewdotnich">
-  <meta name="twitter:url" content="http://andrewdotni.ch//index.html">
-  <meta name="twitter:description" content="build software, build people">
-  <meta name="twitter:image" content="http://andrewdotni.ch//favicon.png">
-  <meta name="twitter:site" content=" @andrewdotnich ">
-  <meta name="twitter:creator" content=" @andrewdotnich ">
-
-  <meta property="og:type" content="blog">
-  <meta property="og:title" content="andrewdotnich">
-  <meta property="og:url" content="http://andrewdotni.ch//index.html">
-  <meta property="og:image" content="http://andrewdotni.ch//apple-touch-icon-152x152.png">
-  <meta property="og:site_name" content="andrewdotnich">
-
-</head>
-
-
-
-<body>
-	<header id="header" class="inner"><h1><a href="/">andrewdotnich</a></h1>
-<h4>build software, build people</h4>
-<nav id="main-nav"><ul>
-	<li><a href="/">Blog</a></li>
-	<li><a href="/precis">Précis</a></li>
-	<li><a href="/portfolio">Portfolio</a></li>
-	<li><a href="/katas">Katas</a></li>
-	<li><a href="/archives">Archive</a></li>
-</ul>
-</nav>
-<nav id="mobile-nav">
-	<div class="alignleft menu">
-		<a class="button">Menu</a>
-		<div class="container"><ul>
-	<li><a href="/">Blog</a></li>
-	<li><a href="/precis">Précis</a></li>
-	<li><a href="/portfolio">Portfolio</a></li>
-	<li><a href="/katas">Katas</a></li>
-	<li><a href="/archives">Archive</a></li>
-</ul>
-</div>
-	</div>
-	<div class="alignright search">
-		<a class="button"></a>
-		<div class="container">
-			<form action="http://google.com/search" method="get">
-				<input type="text" name="q" results="0">
-				<input type="hidden" name="q" value="site:andrewdotni.ch/">
-			</form>
-		</div>
-	</div>
-</nav>
-
-
-</header>
-
-	<div id="content" class="inner">
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2015/04/30/kiva-snapshot/">
-		
-			Kiva Snapshot</a>
-	</h2>
-	<div class="entry-content">
-		<p>I started a small group of microfinance loaners. I&rsquo;ve been building a mini site to give us a better picture of what we&rsquo;ve achieved, and what we&rsquo;d like to do next. Part of my <a href="/blog/2015/01/08/welcome-to-2015/">year of projects</a>.</p>
+  
+  <entry>
+    <title type="html"><![CDATA[Kiva Snapshot]]></title>
+    <link href="http://andrewdotni.ch//blog/2015/04/30/kiva-snapshot/"/>
+    <updated>2015-04-30T19:40:50+10:00</updated>
+    <id>http://andrewdotni.ch//blog/2015/04/30/kiva-snapshot</id>
+    <content type="html"><![CDATA[<p>I started a small group of microfinance loaners. I&rsquo;ve been building a mini site to give us a better picture of what we&rsquo;ve achieved, and what we&rsquo;d like to do next. Part of my <a href="http://andrewdotni.ch//blog/2015/01/08/welcome-to-2015/">year of projects</a>.</p>
 
 <h1>Build People</h1>
 
@@ -178,11 +66,11 @@ $(document).ready(
 
 <h3>Screenshots</h3>
 
-<p><img title="Graphs showing progress over time" src="/images/kiva_snapshot_graph.png"></p>
+<p><img title="Graphs showing progress over time" src="http://andrewdotni.ch//images/kiva_snapshot_graph.png"></p>
 
-<p><img title="Some of our recent loans" src="/images/kiva_snapshot_loans.png"></p>
+<p><img title="Some of our recent loans" src="http://andrewdotni.ch//images/kiva_snapshot_loans.png"></p>
 
-<p><img title="A tool to help me pull API data out" src="/images/kiva_snapshot_api_query.png"></p>
+<p><img title="A tool to help me pull API data out" src="http://andrewdotni.ch//images/kiva_snapshot_api_query.png"></p>
 
 <h3>Frontend Stack</h3>
 
@@ -205,48 +93,15 @@ $(document).ready(
 <li><a href="http://postgresql.org">Postgres 9.3</a></li>
 </ul>
 
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
-
-
-<time datetime="2015-04-30T19:40:50+10:00" pubdate data-updated="true">Apr 30<sup>th</sup>, 2015</time></div>
-	
-
-<div class="tags">
-
-	<a class='category' href='/blog/categories/build-people/'>build people</a>, <a class='category' href='/blog/categories/projects/'>projects</a>, <a class='category' href='/blog/categories/ruby/'>ruby</a>
-
-</div>
-
-
-	
-</div></article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2015/03/30/woff-fonts-on-ghost/">
-		
-			Fixing Broken Web Fonts on Ghost</a>
-	</h2>
-	<div class="entry-content">
-		<h1>Troubleshooting Webfonts on Ghost</h1>
+  <entry>
+    <title type="html"><![CDATA[Fixing broken Web Fonts on Ghost]]></title>
+    <link href="http://andrewdotni.ch//blog/2015/03/30/woff-fonts-on-ghost/"/>
+    <updated>2015-03-30T16:55:58+11:00</updated>
+    <id>http://andrewdotni.ch//blog/2015/03/30/woff-fonts-on-ghost</id>
+    <content type="html"><![CDATA[<h1>Troubleshooting Webfonts on Ghost</h1>
 
 <p>While getting the <a href="http://blog.cogent.co/">Cogent Blog</a> up and running recently, I ran into a strange issue with the <a href="http://ghost.io/">Ghost</a> blogging platform and WebFonts - hopefully this will save you some pain.</p>
 
@@ -265,51 +120,18 @@ $(document).ready(
 <blockquote><p>Rename the broken font&rsquo;s extension from <strong><code>.woff</code></strong> to <strong><code>.woff2</code></strong>, and fix the paths in the CSS.</p></blockquote>
 
 <p>I&rsquo;m not sure exactly why this works. Maybe it&rsquo;s to do with Ghost&rsquo;s routing rules – or maybe it&rsquo;s the fault of Ghost&rsquo;s CDN. Either way, hopefully this solves you some head-scratching if your fonts aren&rsquo;t working as you expect.</p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
-
-
-<time datetime="2015-03-30T16:55:58+11:00" pubdate data-updated="true">Mar 30<sup>th</sup>, 2015</time></div>
-	
-
-<div class="tags">
-
-	<a class='category' href='/blog/categories/ghost/'>ghost</a>, <a class='category' href='/blog/categories/troubleshooting/'>troubleshooting</a>, <a class='category' href='/blog/categories/webfonts/'>webfonts</a>
-
-</div>
-
-
-	
-</div></article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2015/02/28/midi-synth-with-raspberry-p/">
-		
-			Building a MIDI Synth With a Raspberry Pi</a>
-	</h2>
-	<div class="entry-content">
-		<h1>Background</h1>
+  <entry>
+    <title type="html"><![CDATA[Building a MIDI Synth with a Raspberry Pi]]></title>
+    <link href="http://andrewdotni.ch//blog/2015/02/28/midi-synth-with-raspberry-p/"/>
+    <updated>2015-02-28T15:49:32+11:00</updated>
+    <id>http://andrewdotni.ch//blog/2015/02/28/midi-synth-with-raspberry-p</id>
+    <content type="html"><![CDATA[<h1>Background</h1>
 
 <p>I’m a keyboard/piano player, but I’m learning <a href="http://www.marcodi.com/">the Harpejji G16</a> as well. When playing in my band, I’ve tried playing bass lines with my left hand on the keys, and leads on the harpejji with my right hand. Unfortunately, the stage piano I’ve been using is too big to sit nicely with the harpejji, and attempting V-like instrument arrangements simply gave me RSI. I needed something smaller that was really easy to use, with as little setup as switching on my current keyboard!
-Part of my <a href="/blog/2015/01/08/welcome-to-2015/">year of projects</a>.</p>
+Part of my <a href="http://andrewdotni.ch//blog/2015/01/08/welcome-to-2015/">year of projects</a>.</p>
 
 <h1>What you need for this Guide</h1>
 
@@ -331,7 +153,7 @@ Part of my <a href="/blog/2015/01/08/welcome-to-2015/">year of projects</a>.</p>
 
 <p>Run <code>sudo raspi-config</code>, and select Overclock from the menu.</p>
 
-<p><img src="/images/raspi-turbo.png"></p>
+<p><img src="http://andrewdotni.ch//images/raspi-turbo.png"></p>
 
 <p>As I won’t be using this Pi for anything else, I’ve chosen to run it at the highest overlock, Turbo. If you’re not comfortable with this, you may choose a slightly less aggressive setting. Play around and find what works best for you.</p>
 
@@ -563,53 +385,20 @@ Part of my <a href="/blog/2015/01/08/welcome-to-2015/">year of projects</a>.</p>
 
 <p>If running <code>aplay</code> above didn&rsquo;t make any noise, perhaps you need to tweak your Pi&rsquo;s volume levels. Run <code>alsamixer</code> and check that your output is right:</p>
 
-<p><img src="/images/alsamixer.png"></p>
+<p><img src="http://andrewdotni.ch//images/alsamixer.png"></p>
 
 <p>You should make sure that the output is set to be the Broadcom chip, <em>not</em> HDMI or your MIDI device if you&rsquo;ve plugged it in. You can adjust the volume with the arrow keys &amp;endash if this isn&rsquo;t working, try pressing <code>m</code> to unmute.</p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
+  <entry>
+    <title type="html"><![CDATA[RubyConf AU 2015]]></title>
+    <link href="http://andrewdotni.ch//blog/2015/02/12/rubyconf-au-2015/"/>
+    <updated>2015-02-12T21:40:21+11:00</updated>
+    <id>http://andrewdotni.ch//blog/2015/02/12/rubyconf-au-2015</id>
+    <content type="html"><![CDATA[<p>February 2015 saw Federation Square host the latest instalment of <a href="http://rubyconf.org.au/">RubyConf AU</a>, one of the best tech conferences in Australia. Over 450 Ruby developers from Australia, New Zealand &amp; beyond gathered for 4 days of workshops, talks, and social activities.</p>
 
-
-<time datetime="2015-02-28T15:49:32+11:00" pubdate data-updated="true">Feb 28<sup>th</sup>, 2015</time></div>
-	
-
-<div class="tags">
-
-	<a class='category' href='/blog/categories/audio/'>audio</a>, <a class='category' href='/blog/categories/linux/'>linux</a>, <a class='category' href='/blog/categories/projects/'>projects</a>, <a class='category' href='/blog/categories/raspberry-pi/'>raspberry pi</a>
-
-</div>
-
-
-	
-</div></article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2015/02/12/rubyconf-au-2015/">
-		
-			RubyConf AU 2015</a>
-	</h2>
-	<div class="entry-content">
-		<p>February 2015 saw Federation Square host the latest instalment of <a href="http://rubyconf.org.au/">RubyConf AU</a>, one of the best tech conferences in Australia. Over 450 Ruby developers from Australia, New Zealand &amp; beyond gathered for 4 days of workshops, talks, and social activities.</p>
-
-<p><img src='/images/rubyconf_au_15_conference.jpg' /></p>
+<p><img src='http://andrewdotni.ch//images/rubyconf_au_15_conference.jpg' /></p>
 
 <h1>…in 50 words or less</h1>
 
@@ -639,7 +428,7 @@ Part of my <a href="/blog/2015/01/08/welcome-to-2015/">year of projects</a>.</p>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-<p><img src='/images/collis.jpg' /></p>
+<p><img src='http://andrewdotni.ch//images/collis.jpg' /></p>
 
 <h1>…the talks!</h1>
 
@@ -683,7 +472,7 @@ Part of my <a href="/blog/2015/01/08/welcome-to-2015/">year of projects</a>.</p>
 
 <p>Live coding can be just as compelling as any other live art form. Joseph gave us a peek into the tools that exist for live coding music, and then gave a stunning demo of what’s possible with Clojure + Emacs.</p>
 
-<p><img src='/images/repl_electric.jpg' /></p>
+<p><img src='http://andrewdotni.ch//images/repl_electric.jpg' /></p>
 
 <h2><a name="embrace_new_ideas"></a>“What new stuff could make Ruby better?”</h2>
 
@@ -727,7 +516,7 @@ Part of my <a href="/blog/2015/01/08/welcome-to-2015/">year of projects</a>.</p>
 
 <h1>Other Observations</h1>
 
-<p><img src='/images/picnic.jpg' /></p>
+<p><img src='http://andrewdotni.ch//images/picnic.jpg' /></p>
 
 <ul>
 <li><p>I loved the venue – the Edge Theatre is a stunning place and so central to everything! The only downside is that it only allowed for a single conference track. A few people were disappointed that there weren’t more “Ruby-centric” talks, and a single track probably explains most of why.</p></li>
@@ -752,48 +541,15 @@ Photo Credits:</p>
 </aside></li>
 </ul>
 
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
-
-
-<time datetime="2015-02-12T21:40:21+11:00" pubdate data-updated="true">Feb 12<sup>th</sup>, 2015</time></div>
-	
-
-<div class="tags">
-
-	<a class='category' href='/blog/categories/conferences/'>conferences</a>, <a class='category' href='/blog/categories/ruby/'>ruby</a>, <a class='category' href='/blog/categories/rubyconf-au/'>rubyconf_au</a>
-
-</div>
-
-
-	
-</div></article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2015/01/30/baby-sleep-monitor/">
-		
-			Project 1, Iteration 0: Baby Sleep Monitor</a>
-	</h2>
-	<div class="entry-content">
-		<p>Earlier this year, I <a href="/blog/2015/01/08/welcome-to-2015/">resolved to complete more projects</a>, and this is the first!</p>
+  <entry>
+    <title type="html"><![CDATA[Project 1, Iteration 0: Baby Sleep Monitor]]></title>
+    <link href="http://andrewdotni.ch//blog/2015/01/30/baby-sleep-monitor/"/>
+    <updated>2015-01-30T18:04:27+11:00</updated>
+    <id>http://andrewdotni.ch//blog/2015/01/30/baby-sleep-monitor</id>
+    <content type="html"><![CDATA[<p>Earlier this year, I <a href="http://andrewdotni.ch//blog/2015/01/08/welcome-to-2015/">resolved to complete more projects</a>, and this is the first!</p>
 
 <p>In just a few months time, I’m going to become a father for the first time. Being an expectant parent, and having some electronics lying around, I thought I’d combine the two!</p>
 
@@ -801,8 +557,8 @@ Photo Credits:</p>
 
 <p>I’ll be upfront: it’s not quite finished yet. I’m annoyed about that. But in the interests of accountability &amp; transparency, iteration 0 is done!</p>
 
-<p><img src='/images/monitor_topless.jpg'>
-<img src='/images/monitor_with_top.jpg'></p>
+<p><img src='http://andrewdotni.ch//images/monitor_topless.jpg'>
+<img src='http://andrewdotni.ch//images/monitor_with_top.jpg'></p>
 
 <p>I made a couple of errors, which I’ll fix when I do iteration 1.</p>
 
@@ -828,48 +584,15 @@ Photo Credits:</p>
 <li>Iteration is totally acceptable.</li>
 </ul>
 
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
-
-
-<time datetime="2015-01-30T18:04:27+11:00" pubdate data-updated="true">Jan 30<sup>th</sup>, 2015</time></div>
-	
-
-<div class="tags">
-
-	<a class='category' href='/blog/categories/baby/'>baby</a>, <a class='category' href='/blog/categories/electronics/'>electronics</a>, <a class='category' href='/blog/categories/parenting/'>parenting</a>, <a class='category' href='/blog/categories/projects/'>projects</a>
-
-</div>
-
-
-	
-</div></article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2015/01/19/kata-bowling/">
-		
-			Kata: Bowling</a>
-	</h2>
-	<div class="entry-content">
-		<h2>Description</h2>
+  <entry>
+    <title type="html"><![CDATA[Kata: Bowling]]></title>
+    <link href="http://andrewdotni.ch//blog/2015/01/19/kata-bowling/"/>
+    <updated>2015-01-19T18:30:00+11:00</updated>
+    <id>http://andrewdotni.ch//blog/2015/01/19/kata-bowling</id>
+    <content type="html"><![CDATA[<h2>Description</h2>
 
 <p>Accurately model a game of ten-pin bowling. Inspired by a mini-Code Retreat I attended years ago, and the front page of <a href="http://rspec.info/">rspec.info</a>.</p>
 
@@ -1115,48 +838,15 @@ end</code></pre></noscript></div>
 
 
 
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
-
-
-<time datetime="2015-01-19T18:30:00+11:00" pubdate data-updated="true">Jan 19<sup>th</sup>, 2015</time></div>
-	
-
-<div class="tags">
-
-	<a class='category' href='/blog/categories/kata/'>kata</a>
-
-</div>
-
-
-	
-</div></article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2015/01/19/katas/">
-		
-			Introducing Katas</a>
-	</h2>
-	<div class="entry-content">
-		<p>Something I’ve really started to enjoy is working through software katas.</p>
+  <entry>
+    <title type="html"><![CDATA[Introducing Katas]]></title>
+    <link href="http://andrewdotni.ch//blog/2015/01/19/katas/"/>
+    <updated>2015-01-19T18:17:51+11:00</updated>
+    <id>http://andrewdotni.ch//blog/2015/01/19/katas</id>
+    <content type="html"><![CDATA[<p>Something I’ve really started to enjoy is working through software katas.</p>
 
 <p>In karate, katas are exercises the student repeats many, many times. Each time through, the student will (hopefully) improve little by little in order to develop their technique and skill.</p>
 
@@ -1165,48 +855,15 @@ end</code></pre></noscript></div>
 <p>Inspired partly by Magnus Holm’s <a href="http://timelessrepo.com/">timeless repo</a>, I’m going to post these kata here as embedded gists, so as I update them (and make more attempts at solving them) we’ll be able to see how my thoughts on software design grow and change.</p>
 
 <p>The first one I’m going to put up is the bowling kata, and I’ll keep the full list up-to-date on <a href="http://andrewdotni.ch/katas">the Kata page</a> :)</p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
-
-
-<time datetime="2015-01-19T18:17:51+11:00" pubdate data-updated="true">Jan 19<sup>th</sup>, 2015</time></div>
-	
-
-<div class="tags">
-
-	<a class='category' href='/blog/categories/kata/'>kata</a>
-
-</div>
-
-
-	
-</div></article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2015/01/10/making-soap/">
-		
-			Project Nov-Dec 2014: Making Soap</a>
-	</h2>
-	<div class="entry-content">
-		<h2>Why make soap?</h2>
+  <entry>
+    <title type="html"><![CDATA[Project Nov-Dec 2014: Making Soap]]></title>
+    <link href="http://andrewdotni.ch//blog/2015/01/10/making-soap/"/>
+    <updated>2015-01-10T16:55:01+11:00</updated>
+    <id>http://andrewdotni.ch//blog/2015/01/10/making-soap</id>
+    <content type="html"><![CDATA[<h2>Why make soap?</h2>
 
 <p>So much of what we do as software developers is intangible - you can’t taste, touch, smell or feel code! I wanted to make something that was all of those (well, maybe not taste).</p>
 
@@ -1227,7 +884,7 @@ end</code></pre></noscript></div>
 <p>With the right proportions and a good stirring arm, you’ll end up with soap!</p>
 
 <figure style='margin-left:auto; margin-right:auto; width:100%'>
-  <img src='/images/aleppo_soap.jpg'>
+  <img src='http://andrewdotni.ch//images/aleppo_soap.jpg'>
   <figcaption><em>This isn&#8217;t mine.</em></figcaption>
 </figure>
 
@@ -1255,42 +912,15 @@ end</code></pre></noscript></div>
 <p>I knew what I wanted to do, and what I thought it would look like at the end. I still needed to do all the work required to go from ingredients to finished product. Following through and finishing gave me the real pleasure and satisfaction of a project completed. I got to use what I made, and I had pleasure in giving some away as gifts.</p>
 
 <p>I’ll take these insights into my software projects, and my approach at work. I’m going to spell out what I need to do before I start, eliminate more distractions, and be thorough so when it’s done, it’s done.</p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
-
-
-<time datetime="2015-01-10T16:55:01+11:00" pubdate data-updated="true">Jan 10<sup>th</sup>, 2015</time></div>
-	
-
-
-	
-</div></article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2015/01/08/welcome-to-2015/">
-		
-			Welcome to 2015</a>
-	</h2>
-	<div class="entry-content">
-		<p>Hi everyone!</p>
+  <entry>
+    <title type="html"><![CDATA[Welcome to 2015]]></title>
+    <link href="http://andrewdotni.ch//blog/2015/01/08/welcome-to-2015/"/>
+    <updated>2015-01-08T13:54:53+11:00</updated>
+    <id>http://andrewdotni.ch//blog/2015/01/08/welcome-to-2015</id>
+    <content type="html"><![CDATA[<p>Hi everyone!</p>
 
 <p>Another year has been and gone, and now 2015 extends before us as the Not Yet becomes the Has Been.</p>
 
@@ -1322,55 +952,22 @@ end</code></pre></noscript></div>
 <li>Baby Sleep Monitor
 
 <ul>
-<li><a href="/blog/2015/01/30/baby-sleep-monitor/">Iteration 0</a></li>
+<li><a href="http://andrewdotni.ch//blog/2015/01/30/baby-sleep-monitor/">Iteration 0</a></li>
 </ul>
 </li>
-<li><p><a href="/blog/2015/02/28/midi-synth-with-raspberry-p/">Raspberry Pi-based MIDI Synthesiser</a></p></li>
-<li><p><a href="/blog/2015/04/30/kiva-snapshot/">Kiva Snapshot</a></p></li>
+<li><p><a href="http://andrewdotni.ch//blog/2015/02/28/midi-synth-with-raspberry-p/">Raspberry Pi-based MIDI Synthesiser</a></p></li>
+<li><p><a href="http://andrewdotni.ch//blog/2015/04/30/kiva-snapshot/">Kiva Snapshot</a></p></li>
 </ol>
 
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
-
-
-<time datetime="2015-01-08T13:54:53+11:00" pubdate data-updated="true">Jan 8<sup>th</sup>, 2015</time></div>
-	
-
-<div class="tags">
-
-	<a class='category' href='/blog/categories/goals/'>goals</a>, <a class='category' href='/blog/categories/new-year/'>new year</a>
-
-</div>
-
-
-	
-</div></article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2014/12/12/aah14-waleed-aly/">
-		
-			AAH14: Waleed Aly</a>
-	</h2>
-	<div class="entry-content">
-		<h2>AAH14 Keynote - Waleed Aly: Ethics &amp; Technology</h2>
+  <entry>
+    <title type="html"><![CDATA[AAH14: Waleed Aly]]></title>
+    <link href="http://andrewdotni.ch//blog/2014/12/12/aah14-waleed-aly/"/>
+    <updated>2014-12-12T11:48:35+11:00</updated>
+    <id>http://andrewdotni.ch//blog/2014/12/12/aah14-waleed-aly</id>
+    <content type="html"><![CDATA[<h2>AAH14 Keynote - Waleed Aly: Ethics &amp; Technology</h2>
 
 <p><a href="http://en.wikipedia.org/wiki/Waleed_Aly">Waleed Aly</a> considered himself a strange guest speaker for a tech conference, given his background in journalism, political science &amp; law. I disagree, though - especially for a conference focusing on humanity.</p>
 
@@ -1407,89 +1004,329 @@ end</code></pre></noscript></div>
 <p>But we also see every fact, every piece of information through lenses, or worldviews. To deny that is the very essence of cognitive bias!</p>
 
 <p>How could we, as people working in a quickly-changing industry, incorporate more mindfulness of our worldviews into what we do?</p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
+  <entry>
+    <title type="html"><![CDATA[Above all Human 2014]]></title>
+    <link href="http://andrewdotni.ch//blog/2014/12/12/above-all-human-2014/"/>
+    <updated>2014-12-12T10:39:16+11:00</updated>
+    <id>http://andrewdotni.ch//blog/2014/12/12/above-all-human-2014</id>
+    <content type="html"><![CDATA[<p>This past week I got the opportunity to attend the inaugural <a href="http://aboveallhuman.co/">Above All Human</a> conference, held in North Melbourne’s Arts House Meat Market. Here are some thoughts &amp; reflections I took out of it.</p>
+
+<h2>tl;dr</h2>
+
+<ul>
+<li>There are lots of conversations we’re not having as an industry. Ethics, diversity and responsibility often end up subservient to pragmatism, profit, and monoculture.</li>
+<li>“Solving a problem” is a very broad statement. Some people’s problems are finding shoes that fit; others are finding capital to finance their businesses in places with no banking infrastructure. Others just want to find cool links on the Internet.</li>
+<li>Just because people are internet-famous and can start cool businesses, doesn’t guarantee that they have insight to share.</li>
+<li>Listen to people who are not like yourself, and you will learn.</li>
+</ul>
 
 
-<time datetime="2014-12-12T11:48:35+11:00" pubdate data-updated="true">Dec 12<sup>th</sup>, 2014</time></div>
-	
+<h2>Highlights</h2>
 
-<div class="tags">
+<p><strong><a href="https://medium.com/@bronwen/what-are-you-going-to-do-with-your-beautiful-fragile-life-4ce679c25b40">Bronwen &amp; Susan’s opening remarks</a></strong></p>
 
-	<a class='category' href='/blog/categories/above-all-human/'>above all human</a>, <a class='category' href='/blog/categories/conferences/'>conferences</a>
+<p><strong>Morning keynotes</strong> Perhaps I was just more awake in the morning, but I felt it was the best part. The morning keynote-ish talks were awesome, and I’ll give them some air time of their own.</p>
 
-</div>
+<p><strong><a href="https://twitter.com/search?q=%23aah14">#aah14</a></strong> The conversations happening on twitter were amazing, and having MC <a href="https://twitter.com/mpesce">@mpesce</a> actively participating helped those back-channel interactions feed back into the main show.</p>
 
+<p><strong>Diversity of speakers</strong> One of the organisers’ stated goals was to have a diverse lineup, across genders &amp; cultures. I think they did a great job of that. The only piece missing were older people. There is a wealth of wisdom in the older voices in tech that would have been great to see there.</p>
 
-	
-</div></article>
+<p><strong>The venue</strong> all the tech conferences I’ve attended in Melbourne have been, sadly, a touch on the bland side. But the Meat Market was a great venue, and the mingling space outside the auditorium was a fun place to hang out, chat, and get refueled.</p>
 
-<nav id="pagenavi">
-    
-    
-        <a href="2" class="next">Next</a>
-    
-    <div class="center"><a href="/archives">Blog Archives</a></div>
-</nav></div>
-	<footer id="footer" class="inner">Copyright &copy; 2015
+<h2>Lowlights</h2>
 
-    Andy Nicholson
+<p><strong>VC panel</strong> I was really interested in the questions being asked of the VC guests - about diversity in VC funding, approaches Australian companies can take in a smaller pond of money, and why an “exit” is pretty much the only strategy VC seems to be interested in.</p>
 
-<br>
-Powered by Octopress.
-</footer>
-	<script src="/javascripts/slash.js"></script>
-<script src="/javascripts/jquery.fancybox.pack.js"></script>
-<script type="text/javascript">
-(function($){
-	$('.fancybox').fancybox();
-})(jQuery);
-</script> <!-- Delete or comment this line to disable Fancybox -->
+<p>Their answers? “I’ll fund what appeals to me”, “maybe you <strong>should</strong> just go to the Valley”, and “because 1000x, duh”.</p>
 
+<p>A sad irony that those keen to invest in “innovation”, etc. feel no need (or interest) to innovate their own practices. What would disrupting the VC space look like?</p>
 
-<script type="text/javascript">
-      var disqus_shortname = 'andrewdotnich';
-      
-        
-        var disqus_script = 'count.js';
-      
-    (function () {
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    }());
-</script>
+<p><strong>YC Office Hours</strong> This was a strange segment - designed to mimic the YC pitching sessions, but on stage in front of an audience. It felt a bit like free advertising for YCombinator, and (even more oddly) most of the pitching companies didn’t seem that interested in their advice anyway. If I’d made any of those companies I suppose I’d be defensive of my baby too - but it made for a strange (voyeuristic?) experience.</p>
+
+<h2>Conclusion</h2>
+
+<p>Thanks to <a href="https://twitter.com/bronwen">Bronwen</a> &amp; <a href="https://twitter.com/sw">Susan</a> for organising a wonderful conference. We need more of these conversations in our industry. Well done &amp; see you next year!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Curse of the Ideal Project]]></title>
+    <link href="http://andrewdotni.ch//blog/2014/10/22/the-curse-of-the-ideal-project/"/>
+    <updated>2014-10-22T12:25:34+11:00</updated>
+    <id>http://andrewdotni.ch//blog/2014/10/22/the-curse-of-the-ideal-project</id>
+    <content type="html"><![CDATA[<p>I confess: I have an ideas problem. Not the <em>generation</em> of ideas, oh no.
+My problem is what to <em>do</em> (or <em>not</em> to do) with them when they arrive.</p>
+
+<p>Like many idealistically-bent people, I tend to like the <em>idea</em> more than the <em>implementation</em>. Why is that?</p>
+
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/andrewdotnich">@andrewdotnich</a> Ideas are perfect. Implementation is chaos.</p>&mdash; Toby Hede (@tobyhede) <a href="https://twitter.com/tobyhede/status/524761857299460097">October 22, 2014</a></blockquote>
 
 
-
-	<script type="text/javascript">
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-38204833-1']);
-		_gaq.push(['_trackPageview']);
-
-		(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		})();
-	</script>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
+<p>And it&rsquo;s true: there is a certain (almost-Platonic) beauty to the Idea. (The idea of idea? #stackoverflow)</p>
 
-</body>
-</html>
+<p>You imagine the finished product, and it&rsquo;s wonderful. Oh, to have given birth to such an incredible <em>x</em>!</p>
+
+<p>And then the tarnishing starts. The corrosive factors of<br>
+<q>I don&rsquo;t have enough time!</q>, and <br>
+<q>I don&rsquo;t know how to do this - maybe I&rsquo;ll fail!</q>, and <br>
+<q>oh, someone&rsquo;s already made one of those!</q>, and <br>
+<q>oh! I&rsquo;ve just had a great idea for a &hellip;</q></p>
+
+<p>start etching away, and before long the sheen is gone.</p>
+
+<p>Sometimes the tarnish takes longer to take hold than others. A lot of projects might even get started. But it&rsquo;s rare that a project actually makes it to &ldquo;finished&rdquo;,
+because the inevitable disappointment when the actual fails to meet the Ideal feels too much to bear.</p>
+
+<p>Wouldn&rsquo;t it be so much nicer, your <a href="http://tvtropes.org/pmwiki/pmwiki.php/Main/InsaneTrollLogic">troll-brain says</a>, if things just stayed as ideas? Why not give yourself the reward for coming up with the idea?</p>
+
+<blockquote><p><strong>Ko-Ko:</strong> When Your Majesty says &ldquo;Let a thing be done&rdquo;, it’s as good as done, practically it is done, because Your Majesty’s will is law. Your Majesty says &ldquo;Kill a gentleman&rdquo;, and the gentleman is to be killed, consequently that gentleman is as good as dead, practically he is dead, and if he is dead, why not say so?</p>
+
+<p><strong>The Mikado</strong>: I see. <em>(Dramatic Pause)</em> Nothing could possibly be more&hellip;satisfactory!</p>
+
+<p><em>The Mikado</em>, Act II.</p></blockquote>
+
+<p>Only it isn&rsquo;t satisfactory. Eventually, you&rsquo;ll end up with a bunch of baby projects you killed at birth - because
+in the moment you decided <q>Not Creating Anything</q> was better than <q>Creating Something Less than Ideal</q>. And we don&rsquo;t live in Plato&rsquo;s universe.
+An idea is only a shadow without its fulfilment.</p>
+
+<p>Who wants to live in a world of shadows?</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[10 films]]></title>
+    <link href="http://andrewdotni.ch//blog/2014/09/25/10-films/"/>
+    <updated>2014-09-25T15:39:07+10:00</updated>
+    <id>http://andrewdotni.ch//blog/2014/09/25/10-films</id>
+    <content type="html"><![CDATA[<p>There are posts going around facebook asking what 10 books/films/tea blends have lasted with you over your life. Here&rsquo;s my movie list, in no real order of preference.</p>
+
+<h3><a href="http://www.imdb.com/title/tt0352520/">The Life and Death of Peter Sellers (2004)</a></h3>
+
+<p>Worth watching solely for the <em>incredible</em> performances of Geoffrey Rush, this is a gritty (and contracted) biopic of one of the greatest comedians of the 20th Century. I really resonated with Sellers&#8217; fear that beneath all the masks there was no essence, no Peter underneath. While this &ldquo;allowed&rdquo; him to immerse himself in characters like few others, it paints his life as tragically sad. Tough watching at times, but worth it.</p>
+
+<h3><a href="http://www.imdb.com/title/tt0062622/">2001: A Space Odyssey (1968)</a></h3>
+
+<p>A (very) long film, but its visuals are phenomenal given the time it was made. It deals with big themes (like the evolution of humankind), but most of the story is told in small segments. Our imagination is left to fill in the gaps, and it works very well.</p>
+
+<p>Without that context, the psychedelia of the last 15 minutes or so will make no sense whatsoever. But if you&rsquo;re prepared to invest in the big themes, this is a stunning piece of cinema history.</p>
+
+<h3><a href="http://www.imdb.com/title/tt0172495/">Gladiator (2000)</a></h3>
+
+<p>Another long film, and one I like for different reasons. I really like Russell Crowe&rsquo;s portrayal of a loyal, dutiful soldier navigating a cunning, scheming world with integrity, even at his cost. Great soundtrack too.</p>
+
+<h3><a href="http://www.imdb.com/title/tt0057012/">Dr. Strangelove (1964)</a></h3>
+
+<h4>or, How I Learned To Stop Worrying and Love the Bomb</h4>
+
+<p>Another Kubrick film, and another (kindof) Sellers film. The comedy is black as black, and full of the futility that marked the Cold War. This film wouldn&rsquo;t be made today (because the &ldquo;baddies&rdquo; are much less centralised than the Cold War), but it does capture the gnawing feeling that one stupid renegade could bring the knife-edged balance of humanity crumbling down.</p>
+
+<h3><a href="http://www.imdb.com/title/tt0074958/">Network (1976)</a></h3>
+
+<p>Possibly my favourite film of all time. All the main actors put in stunning performances - it won 3 of the 4 acting Oscars in 1976. In fact, it holds the record for the shortest performance that won an acting award - Beatrice Straight won with only 5 minutes of screen time! (She deserves it, btw.)</p>
+
+<p>While Dr. Strangelove looks at the Cold War through a military lens, Network looks through another lens - the camera lens of a TV studio. The callous way that people, current affairs, politics and even terrorism can be used for monetary gain get a caustic examination, with the lingering suspicion that even the &ldquo;goodie/baddie&rdquo; categories might themselves be a fabrication.</p>
+
+<p>Worth watching for the stellar acting performances, and the prophetic (!) foreshadowing of reality TV.</p>
+
+<h3><a href="http://www.imdb.com/title/tt0133093/">The Matrix (1999)</a></h3>
+
+<p>Everyone knows this one. Solid cast, good storyline, amazing special effects, and kicking soundtrack. Shame they never made any sequels&hellip;</p>
+
+<h3><a href="http://www.imdb.com/title/tt2032557/">The Reluctant Fundamentalist (2012)</a></h3>
+
+<p>Found this while on honeymoon, and Verity kindly agreed to watch it. Tells the story of a young Pakistani man, who goes to chase the American Dream and support his family. But it&rsquo;s on a collision course with his homeland, and he has some decisions to make.</p>
+
+<p>Good, because it gives a non-American, non-Western voice to the modern conflict between militant Islam, imperial America, and the people who live under their ideologies.</p>
+
+<h3><a href="http://www.imdb.com/title/tt0082158/">Chariots of Fire (1981)</a></h3>
+
+<p>Finally a predominantly positive film! A great story about a Christian athlete who takes his faith seriously in a culture dominated by lip service. A compelling story, and there&rsquo;s <em>that</em> opening sequence.</p>
+
+<h3><a href="http://www.imdb.com/title/tt0210945/">Remember the Titans (2000)</a></h3>
+
+<p>America. 1970s. Race relations. Reconciliation. Killer soundtrack. Denzel Washington &amp; Donald Faison. #saynomore</p>
+
+<h3><a href="http://www.imdb.com/title/tt0454776/">Amazing Grace (2006)</a></h3>
+
+<p>Biopic about William Wilberforce, and his tireless attempts to abolish the slave trade in Europe. As a Christian who cares about the world, Wilberforce is a tremendous example of determination to right an injustice. It&rsquo;s such a terrible shame that so many people around the world are still in slavery of varying kinds. Wonderful performances by Albert Finney as John Newton, and Benedict Cumberbatch (before he was Sherlock!) as Prime Minister William Pitt.</p>
+
+<h3><a href="http://www.imdb.com/title/tt0056172/">Lawrence of Arabia (1962)</a></h3>
+
+<p>I need to thank my brother David for inviting me to watch this.</p>
+
+<p>Two things:</p>
+
+<ul>
+<li>This movie, more than any other in this list (perhaps with the exception of the 2 Kubrick films) needs to be watched on a <em>big</em> screen. The cinematography is stunningly good, and gives a real energy to the desert. It was also shot on sumptuous 70mm film (with its 6-channel audio), so there is an incredible richness to the imagery and sound.</li>
+<li>This movie is <em>long</em>. The director&rsquo;s cut is <em>228 minutes</em>, or 3 hours and 48 minutes in duration! There is a shorter re-release, but don&rsquo;t bother. Watch it all.</li>
+</ul>
+
+
+<p>Despite its historical setting, and the many things one can learn about that region of the world from watching, it&rsquo;s more of a character film than anything. Lawrence gets caught up in events and, despite knowing more about the Arab world than many of his British colleagues, still manages to find himself on the wrong side of everyone, including himself.</p>
+
+<p>Watch it. You won&rsquo;t be disappointed.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Tech Talks: August 2014]]></title>
+    <link href="http://andrewdotni.ch//blog/2014/08/20/talks-august-2014/"/>
+    <updated>2014-08-20T11:28:17+10:00</updated>
+    <id>http://andrewdotni.ch//blog/2014/08/20/talks-august-2014</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve recently been enjoying refreshing my Ruby testing &amp; design skills, and these 3 talks have been excellent. They&rsquo;re not new talks; I&rsquo;ve seen some of them before. It never hurts to be reminded about good design and good practices!</p>
+
+<h3>The Magic Tricks of Testing</h3>
+
+<h4>Sandi Metz</h4>
+
+<iframe width="853" height="480" src="//www.youtube-nocookie.com/embed/URSWYvyc42M?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<p><strong>Watch it because:</strong> the rules for unit testing minimalism are actually kind of simple - we just need to remember them!</p>
+
+<h3>Yay! Mocks!</h3>
+
+<h4>Corey Haines</h4>
+
+<iframe width="853" height="480" src="//www.youtube-nocookie.com/embed/t430e6M5YAo?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<p><strong>Watch it because:</strong> Listen to your tests! If you&rsquo;re finding pain in your tests, it&rsquo;s a compelling reason to rethink your design. Also cats.</p>
+
+<h3>Refactoring from Good to Great</h3>
+
+<h4>Ben Orenstein</h4>
+
+<iframe width="853" height="480" src="//www.youtube-nocookie.com/embed/DC-pQPq0acs?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<p><strong>Watch it because:</strong> <code>vim</code> ninja! The entire talk is done inside <code>vim</code>. Highly practical, and good arguments for keeping your public interfaces understandable.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Books I'm Reading: August 2014]]></title>
+    <link href="http://andrewdotni.ch//blog/2014/08/16/books-august-2014/"/>
+    <updated>2014-08-16T12:15:40+10:00</updated>
+    <id>http://andrewdotni.ch//blog/2014/08/16/books-august-2014</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve recently started reading more, thanks largely to borrowing a friend&rsquo;s kindle when on holidays for a month in June of this year. I&rsquo;m glad I have, because there&rsquo;s something great about getting immersed in a story - and that&rsquo;s as true of non-fiction as it is for fiction.</p>
+
+<p>Here&rsquo;s what I&rsquo;m reading right now:</p>
+
+<h3><a href="http://www.amazon.com/gp/product/0767919394/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0767919394&amp;linkCode=as2&amp;tag=moremusi-20&amp;linkId=J3W7YFX3IJMQVN7V">At Home</a></h3>
+
+<h4>Bill Bryson</h4>
+
+<figure style='margin-left:auto; margin-right:auto; width:40%'>
+<a href="http://www.amazon.com/gp/product/0767919394/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0767919394&linkCode=as2&tag=moremusi-20&linkId=J3W7YFX3IJMQVN7V"><img border="0" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0767919394&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=moremusi-20" ></a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=moremusi-20&l=as2&o=1&a=0767919394" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;">
+</figure>
+
+
+<p>Bill seems to be incapable of writing short books, but I&rsquo;m thoroughly enjoying his look into the &ldquo;home&rdquo; and its history. I&rsquo;m particularly struck by how recent so many of the innovations we take for granted really are - and it gives me a little bit more gracious towards the digital natives who can&rsquo;t remember a world without iPhones.</p>
+
+<h3><a href="http://www.amazon.com/gp/product/1937077594/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=1937077594&amp;linkCode=as2&amp;tag=moremusi-20&amp;linkId=DEE5V7NTJATEO3PB">Start</a></h3>
+
+<h4>Jon Acuff</h4>
+
+<figure style='margin-left:auto; margin-right:auto; width:40%'>
+<a href="http://www.amazon.com/gp/product/1937077594/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1937077594&linkCode=as2&tag=moremusi-20&linkId=DEE5V7NTJATEO3PB"><img border="0" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1937077594&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=moremusi-20" ></a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=moremusi-20&l=as2&o=1&a=1937077594" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+</figure>
+
+
+<p>This is a book full of home truths for Gen-Ys like me, who yearn to do work that matters but seem to have trouble working out how to get going. We&rsquo;ve rejected the Greatest Generation&rsquo;s tendency to work one job for life, and bought our Boomer parents&#8217; encouragement that we could &ldquo;be whatever we wanted&rdquo;. Couple that with internet celebrity culture giving people fame seemingly from nowhere, it&rsquo;s far too easy to get discouraged and discontented.</p>
+
+<p>Jon writes as someone just that little bit farther down the road than you, which gives his message some weight without it being &ldquo;preachy&rdquo;. He is one of us, and he wants us all to do well. Don&rsquo;t pick it up without being prepared to do a little introspection, but I&rsquo;m finding that being honest with the questions it&rsquo;s raising really helpful.</p>
+
+<hr />
+
+<p>What are you reading right now?</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[On Vision]]></title>
+    <link href="http://andrewdotni.ch//blog/2014/08/01/on-vision/"/>
+    <updated>2014-08-01T15:27:27+10:00</updated>
+    <id>http://andrewdotni.ch//blog/2014/08/01/on-vision</id>
+    <content type="html"><![CDATA[<h2>Fomolicious</h2>
+
+<p>Until quite recently, I suffered a lot from <abbr title='Fear Of Missing Out'>FOMO</abbr>. Whenever I do a Meyers-Briggs type test, I always get <abbr>(E|I)NFP</abbr>. I&rsquo;m highly idealistic, and that made this a bigger deal for me than it might for some. I would look at my friends, see the cool and inspiring things they were doing with their lives, and fight the jealousy that welled up. I&rsquo;d look at professionals &amp; colleagues that I admired, and impatiently wonder why I hadn&rsquo;t had <em>my</em> big break yet. That idea for a product, that dream job, that business opportunity.That pressure to <q>make a dent in the universe</q>, as it were, was weighing very heavily on me (just ask my wife).</p>
+
+<figure style='margin-left:auto; margin-right:auto; width:40%'>
+  <img src='http://andrewdotni.ch//images/porpoise.jpg'>
+  <figcaption><em>This isn&#8217;t purpose.</em></figcaption>
+</figure>
+
+
+<p>No, it&rsquo;s an idol: depending on something less-than-ultimate for a source of ultimate meaning. That never works well in the end.</p>
+
+<p>I&rsquo;m a committed Christian. The Bible reminds me that my life has value and purpose - even if nobody <strong>ever</strong> notices. When I remember this, and remember the only Person I need to please, I am set free!
+<br>Free from the trap of puffing myself up too much.<br>Free from the inevitable disappointment, the ego bruise when reality fails to meet expectations. What a relief!</p>
+
+<h2>Ambition &amp; Idealism are not my masters</h2>
+
+<p>This doesn&rsquo;t mean I have to ditch my idealist streak, not at all. Idealism makes for a wonderful servant. But the peace that comes from knowing my worth is secure before I do anything allows me to avoid panic. I can applaud what others do without being jealous of my own place, and I can even find joy in the seemingly lowly. I am free to be useful. And when ambition isn&rsquo;t about making me appear bigger, a whole world of possibilities opens up.</p>
+
+<p>In my next post, I&rsquo;ll talk about what this means in my working life.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[[untitled poem]]]></title>
+    <link href="http://andrewdotni.ch//blog/2013/02/08/untitled-poem/"/>
+    <updated>2013-02-08T15:23:00+11:00</updated>
+    <id>http://andrewdotni.ch//blog/2013/02/08/untitled-poem</id>
+    <content type="html"><![CDATA[<pre>
+Sometimes skies are only grey,
+and nought makes it go away;
+doesn't mean my failure, it's just life.
+
+I promise to try hard in future
+not to race with thread to suture
+something only balm of time will heal.
+</pre>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Eight tentacles]]></title>
+    <link href="http://andrewdotni.ch//blog/2013/02/03/octopress/"/>
+    <updated>2013-02-03T15:45:00+11:00</updated>
+    <id>http://andrewdotni.ch//blog/2013/02/03/octopress</id>
+    <content type="html"><![CDATA[<p>Over a year since my last post, and so I decided (in typical geek fashion) to reboot it by switching blogging platforms. So goodbye Blogger, and hello Octopress!
+Octopress is a different kind of blog system than many &ndash; there&rsquo;s no database, only flat files. You write a new post in a plain text file, run a command to create the generated page, and away you go! A little magic is required to serve it easily on the web (I&rsquo;m using a service called Heroku, for the other nerd in the audience), but that&rsquo;s it!</p>
+
+<p>I&rsquo;m thinking a bit about what I want to write about - the things that interest me, as well as what I&rsquo;m up to. As always, here&rsquo;s hoping it gets more love than the last effort :P</p>
+
+<p>Hello 2013!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Movember]]></title>
+    <link href="http://andrewdotni.ch//blog/2011/11/11/movember/"/>
+    <updated>2011-11-11T11:23:00+11:00</updated>
+    <id>http://andrewdotni.ch//blog/2011/11/11/movember</id>
+    <content type="html"><![CDATA[<div class='post'>
+<table cellpadding="0" cellspacing="0" class="tr-caption-container" style="float: left; margin-right: 3em; text-align: left;"><tbody><tr><td style="text-align: center;"><a href="http://4.bp.blogspot.com/-4iMF1g43lJ0/TrxvCDPwtrI/AAAAAAAAAE4/ucxAZOmgo9k/s1600/mo_before.jpg" imageanchor="1" style="clear: left; margin-bottom: 1em; margin-left: auto; margin-right: auto;"><img border="0" height="200" src="http://4.bp.blogspot.com/-4iMF1g43lJ0/TrxvCDPwtrI/AAAAAAAAAE4/ucxAZOmgo9k/s200/mo_before.jpg" width="150" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Before</td></tr></tbody></table><div style="text-align: justify;">Anyone who knows me well would agree that changes to the amount and style of hair on my head are few and far between. Once I get into a habit, it tends not to change for some time. And then, suddenly, I&#8217;ll decide it&#8217;s time for something different and without warning, spring it on the world.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">I may have just done that again.</div><div style="text-align: justify;"><br /></div><div style="text-align: center;"><div style="text-align: justify;">I&#8217;ve had a small <a href="http://en.wikipedia.org/wiki/Van_Dyke_beard">Van Dyck-style</a> beard for a few years, but I decided that I wanted to try something different. And what better time to do it than <a href="http://au.movember.com/">Movember</a>?</div></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><table cellpadding="0" cellspacing="0" class="tr-caption-container" style="float: left; text-align: left; margin-right: 3em"><tbody><tr><td style="text-align: center;"><a href="http://1.bp.blogspot.com/-9M2jmE-JKqE/TrxvEQRMFJI/AAAAAAAAAFA/3imu9FDUyLo/s1600/mo_after.jpg" imageanchor="1" style="clear: left; margin-bottom: 1em; margin-left: auto; margin-right: auto;"><img border="0" height="200" src="http://1.bp.blogspot.com/-9M2jmE-JKqE/TrxvEQRMFJI/AAAAAAAAAFA/3imu9FDUyLo/s200/mo_after.jpg" width="150" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Angry face - Day 0!</td></tr></tbody></table>Movember aims to raise support and awareness for mens&#8217; health issues, particularly depression and prostate cancer. Both of these issues aren&#8217;t seen as &#8220;manly&#8221; things to talk about, so I think the association with facial hair (seriously, how hard do you have to work to make a beard/moustache unmanly) is a good way of breaking the ice.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">I haven&#8217;t yet decided what style I&#8217;ll end up with by November 30 - any suggestions? And if you&#8217;d like to get on board and support me, you can do so over at my <a href="http://mobro.co/andrewdotnich">&#8220;MoSpace&#8221; page</a> :D</div><br /><br /><br /></div>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Digital distractions: The Murderer]]></title>
+    <link href="http://andrewdotni.ch//blog/2011/09/27/digital-distractions-murderer/"/>
+    <updated>2011-09-27T17:45:00+10:00</updated>
+    <id>http://andrewdotni.ch//blog/2011/09/27/digital-distractions-murderer</id>
+    <content type="html"><![CDATA[<div class='post'>
+<p><a href="http://andrewdotnich.blogspot.com/2011/08/redeeming-some-time.html">A while back</a> I posted about my growing frustration with the constant distractions I allowed myself to deflected by. I&#8217;m still mulling over about what my response should be; I&#8217;ve taken some small steps, and I hope to share those another time.<br /></p><p>In the meantime, have a listen to this short story by sci-fi author <a href="http://en.wikipedia.org/wiki/Ray_Bradbury">Ray Bradbury</a>, called <em>The Murderer</em>.<br /></p><p>In it, a psychologist examines a man who&#8217;s had enough, and decided to take matters into his own hands…<br /><br /><small><a href="http://bit.ly/ruSef4" target="_blank">The Murderer [MP3] (9MB, ~15 minutes)</a> - (opens in a new window/tab)</small><br /><br /></p></div>
+]]></content>
+  </entry>
+  
+</feed>

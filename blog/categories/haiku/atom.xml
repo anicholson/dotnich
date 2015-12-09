@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: haiku | andrewdotnich]]></title>
+  <link href="http://andrewdotni.ch//blog/categories/haiku/atom.xml" rel="self"/>
+  <link href="http://andrewdotni.ch//"/>
+  <updated>2015-12-09T11:53:42+11:00</updated>
+  <id>http://andrewdotni.ch//</id>
+  <author>
+    <name><![CDATA[Andy Nicholson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[On the cooling of the weather…]]></title>
+    <link href="http://andrewdotni.ch//blog/2011/04/20/on-cooling-of-weather/"/>
+    <updated>2011-04-20T23:13:00+10:00</updated>
+    <id>http://andrewdotni.ch//blog/2011/04/20/on-cooling-of-weather</id>
+    <content type="html"><![CDATA[<div class='post'>
+Winter time draws near / Seasonal Affective Dis-/ Orders me about<br /><br /><br /><hr/><small>From <a href="http://twitter.com/#!/andrewdotnich/status/60487756119412736">Twitter</a>, as I sat on a tram...</small></div>
+
+]]></content>
+  </entry>
+  
+</feed>

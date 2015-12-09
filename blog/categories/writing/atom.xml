@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: writing | andrewdotnich]]></title>
+  <link href="http://andrewdotni.ch//blog/categories/writing/atom.xml" rel="self"/>
+  <link href="http://andrewdotni.ch//"/>
+  <updated>2015-12-09T11:53:42+11:00</updated>
+  <id>http://andrewdotni.ch//</id>
+  <author>
+    <name><![CDATA[Andy Nicholson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[[untitled poem]]]></title>
+    <link href="http://andrewdotni.ch//blog/2013/02/08/untitled-poem/"/>
+    <updated>2013-02-08T15:23:00+11:00</updated>
+    <id>http://andrewdotni.ch//blog/2013/02/08/untitled-poem</id>
+    <content type="html"><![CDATA[<pre>
+Sometimes skies are only grey,
+and nought makes it go away;
+doesn't mean my failure, it's just life.
+
+I promise to try hard in future
+not to race with thread to suture
+something only balm of time will heal.
+</pre>
+
+]]></content>
+  </entry>
+  
+</feed>

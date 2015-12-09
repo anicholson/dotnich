@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: numbers | andrewdotnich]]></title>
+  <link href="http://andrewdotni.ch//blog/categories/numbers/atom.xml" rel="self"/>
+  <link href="http://andrewdotni.ch//"/>
+  <updated>2015-12-09T11:53:42+11:00</updated>
+  <id>http://andrewdotni.ch//</id>
+  <author>
+    <name><![CDATA[Andy Nicholson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Of the notching of pointless milestones there is no end…]]></title>
+    <link href="http://andrewdotni.ch//blog/2011/02/19/of-notching-of-pointless-milestones/"/>
+    <updated>2011-02-19T16:02:00+11:00</updated>
+    <id>http://andrewdotni.ch//blog/2011/02/19/of-notching-of-pointless-milestones</id>
+    <content type="html"><![CDATA[<div class='post'>
+Just noticed that over at last.fm I'd notched up 33,333 song listens. Who cares. Here is the 33,333rd song I scrobbled. It's kind of fitting, as I've really enjoyed this song again of late :)<br /><br /><iframe title="YouTube video player" width="480" height="390" src="http://www.youtube.com/embed/0Rdn1VZxo_E" frameborder="0" allowfullscreen></iframe></div>
+
+]]></content>
+  </entry>
+  
+</feed>

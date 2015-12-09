@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: let's get this baby off the ground | andrewdotnich]]></title>
+  <link href="http://andrewdotni.ch//blog/categories/lets-get-this-baby-off-the-ground/atom.xml" rel="self"/>
+  <link href="http://andrewdotni.ch//"/>
+  <updated>2015-12-09T11:53:42+11:00</updated>
+  <id>http://andrewdotni.ch//</id>
+  <author>
+    <name><![CDATA[Andy Nicholson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Customary apology for lack of posts]]></title>
+    <link href="http://andrewdotni.ch//blog/2011/02/10/customary-apology-for-lack-of-posts/"/>
+    <updated>2011-02-10T00:26:00+11:00</updated>
+    <id>http://andrewdotni.ch//blog/2011/02/10/customary-apology-for-lack-of-posts</id>
+    <content type="html"><![CDATA[<div class='post'>
+I've not really posted for a while; I guess this isn't exactly the most exciting thing I try and do. Life is too full of interacting with people so I keep forgetting to come here and gush whatever's on my mind. But whatever. Maybe more this year. Maybe.</div>
+
+
+<h2>Comments</h2>
+
+
+<div class='comments'>
+<div class='comment'>
+<div class='author'>Stephen McDonald</div>
+<div class='content'>
+If I might gush, the new layout is looking good.</div>
+</div>
+</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[New year, new blog]]></title>
+    <link href="http://andrewdotni.ch//blog/2009/03/13/new-year-new-blog/"/>
+    <updated>2009-03-13T20:41:00+11:00</updated>
+    <id>http://andrewdotni.ch//blog/2009/03/13/new-year-new-blog</id>
+    <content type="html"><![CDATA[<div class='post'>
+<a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://farm4.static.flickr.com/3292/2407468929_1d9e742148_m.jpg"><img style="margin: 0pt 0pt 10px 10px; float: right; cursor: pointer; width: 180px; height: 240px;" src="http://farm4.static.flickr.com/3292/2407468929_1d9e742148_m.jpg" alt="" border="0" /></a><br /><br />…So last year's effort to blog properly didn't really work very well. That's ok, more learning curve. I'm hoping that having everything hosted and managed for me will make it easier for me to just write, and ignore all the fiddle.<br /><br />We'll see how it goes…<br /><br /><br /><div style="text-align: left;">(Image: <a href="http://www.flickr.com/photos/fraumorgenstern/2407468929/" alt="fraumorgenstern on flickr">fraumorgenstern on flickr</a>)<br /></div><div style="text-align: right;"><br /></div></div>
+
+
+<h2>Comments</h2>
+
+
+<div class='comments'>
+<div class='comment'>
+<div class='author'>&amp;y</div>
+<div class='content'>
+Was going to ask you which one that was – there seem to be a few around, of varying usefulness. Same applies to your flickr feed box. Maybe you can let me know which ones they are offline?</div>
+</div>
+<div class='comment'>
+<div class='author'>Stephen McDonald</div>
+<div class='content'>
+Good to see you in this corner of the tubes! I look forward to more.<BR/><BR/>The twitter syndication ad-on is a useful way to keep things from getting stagnant.</div>
+</div>
+</div>
+
+]]></content>
+  </entry>
+  
+</feed>

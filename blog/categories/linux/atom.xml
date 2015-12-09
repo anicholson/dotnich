@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: linux | andrewdotnich]]></title>
+  <link href="http://andrewdotni.ch//blog/categories/linux/atom.xml" rel="self"/>
+  <link href="http://andrewdotni.ch//"/>
+  <updated>2015-12-09T11:53:42+11:00</updated>
+  <id>http://andrewdotni.ch//</id>
+  <author>
+    <name><![CDATA[Andy Nicholson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Building a MIDI Synth with a Raspberry Pi]]></title>
+    <link href="http://andrewdotni.ch//blog/2015/02/28/midi-synth-with-raspberry-p/"/>
+    <updated>2015-02-28T15:49:32+11:00</updated>
+    <id>http://andrewdotni.ch//blog/2015/02/28/midi-synth-with-raspberry-p</id>
+    <content type="html"><![CDATA[<h1>Background</h1>
+
+<p>I’m a keyboard/piano player, but I’m learning <a href="http://www.marcodi.com/">the Harpejji G16</a> as well. When playing in my band, I’ve tried playing bass lines with my left hand on the keys, and leads on the harpejji with my right hand. Unfortunately, the stage piano I’ve been using is too big to sit nicely with the harpejji, and attempting V-like instrument arrangements simply gave me RSI. I needed something smaller that was really easy to use, with as little setup as switching on my current keyboard!
+Part of my <a href="/blog/2015/01/08/welcome-to-2015/">year of projects</a>.</p>
+
+<h1>What you need for this Guide</h1>
+
+<ul>
+<li>A <a href="http://www.raspberrypi.org/">Raspberry Pi</a>, connected to the Internet. (I’m using an original Model B)</li>
+<li>A USB MIDI controller (I’m using an old <a href="http://www.behringer.com/EN/Products/UMX25.aspx">Behringer U-CONTROL UMX-25</a>)</li>
+<li>An SD Card with Raspbian installed. The <a href="http://www.raspberrypi.org/help/noobs-setup/">NOOBS method</a> is probably easiest.</li>
+<li>Speakers to plug into your Pi, for troubleshooting.</li>
+<li>Option A: Monitor &amp; keyboard, for interacting with the Pi directly.</li>
+<li>Option B: another PC for SSHing to your PI.</li>
+</ul>
+
+
+<h1>Preparing your Pi</h1>
+
+<p>There’s a little bit of work required to get acceptable results out of your Pi. We’ll overlock this Pi, so you will need to power your Pi from a mains power supply to make sure it gets the juice it needs. From here on, we’ll assume you’ve logged into your Pi as the <code>pi</code> user and have a terminal to enter commands.</p>
+
+<h2>Overclocking</h2>
+
+<p>Run <code>sudo raspi-config</code>, and select Overclock from the menu.</p>
+
+<p><img src="http://andrewdotni.ch//images/raspi-turbo.png"></p>
+
+<p>As I won’t be using this Pi for anything else, I’ve chosen to run it at the highest overlock, Turbo. If you’re not comfortable with this, you may choose a slightly less aggressive setting. Play around and find what works best for you.</p>
+
+<h2>Create a Separate User</h2>
+
+<p>Depending on what you’re trying to do, this step might not be necessary. But if, like me, you want to switch the Pi on and have things “just work”, you’ll want to do this.</p>
+
+<p>Run the following commands:</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>sudo useradd -G audio synth
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>This creates the <code>audio</code> group, and adds a new user called <code>synth</code> to the Pi. It also sets the synth user&rsquo;s primary group to <code>audio</code>. This is more important if you want to run your audio through the JACK audio server. I&rsquo;m choosing not to here, but it&rsquo;s an option. If you do decide to investigate JACK further, <a href="http://tedfelix.com/linux/linux-midi.html">Ted&rsquo;s Linux MIDI Guide</a> has some useful information.</p>
+
+<p>Next, we want to allow the <code>synth</code> user to run commands with elevated privileges using <code>sudo</code>. Run <code>sudo visudo</code>, which will bring up the sudoers file.</p>
+
+<p>Navigate to the bottom of the file, and add this line:
+<code>synth ALL=(ALL) NOPASSWD: ALL</code></p>
+
+<p>Save and exit the text editor. If no errors come up, the <code>synth</code> user should now be able to run <code>sudo</code> without needing a password.</p>
+
+<h1>Setting up the MIDI</h1>
+
+<p>Plug your MIDI controller into one of the Pi&rsquo;s USB ports, and make sure it&rsquo;s turned on.</p>
+
+<p>Run <code>aconnect -o</code>, and look for your MIDI controller in the output:</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>aconnect -o
+</span><span class='line'>client 14: <span class="p">&amp;</span>lsquo<span class="p">;</span>Midi Through<span class="p">&amp;</span>rsquo<span class="p">;</span> <span class="o">[</span><span class="nb">type</span><span class="o">=</span>kernel<span class="o">]</span>
+</span><span class='line'>    <span class="m">0</span> <span class="p">&amp;</span>lsquo<span class="p">;</span>Midi Through Port-0<span class="p">&amp;</span>rsquo<span class="p">;</span>
+</span><span class='line'>client 20: <span class="p">&amp;</span>lsquo<span class="p">;</span>UMX 25<span class="p">&amp;</span>rsquo<span class="p">;</span> <span class="o">[</span><span class="nb">type</span><span class="o">=</span>kernel<span class="o">]</span>
+</span><span class='line'>    <span class="m">0</span> <span class="p">&amp;</span>lsquo<span class="p">;</span>UMX <span class="m">25</span> MIDI <span class="m">1</span>   <span class="p">&amp;</span>rsquo<span class="p">;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>Write down your controller&rsquo;s <strong>client number</strong> - you&rsquo;ll be needing it later.</p>
+
+<p>To verify that MIDI events are being sent, run <code>aseqdump -p *xx*</code> (replacing xx with the client number you just wrote down). Play some keys, and verify that note on/off messages are coming through.</p>
+
+<h1>Making Some Noise</h1>
+
+<p>There are a few options you can choose to generate sound from your Pi, but I’m going with <a href="http://fluidsynth.org/">FluidSynth</a>. CPU cycles are precious on a lower-powered device, so more complicated audio software may not work as well. YMMV.</p>
+
+<p>Plug your speakers into the Pi&rsquo;s stereo output, and make sure they&rsquo;re switched on with the volume at a low-medium level.</p>
+
+<p>At your Pi&rsquo;s terminal (again, assuming you&rsquo;re logged in as the <code>pi</code> user):</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>sudo apt-get update
+</span><span class='line'><span class="nv">$ </span>sudo apt-get install fluidsynth&lt;/p&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;h1&gt;Try running the aplay -L command. If the Pi complains about aplay not being found, run this too:&lt;/h1&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;p&gt;<span class="nv">$ </span>sudo apt-get install alsa&lt;/p&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;h1&gt;Now run:&lt;/h1&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;p&gt;<span class="nv">$ </span>aplay /usr/share/sounds/alsa/Noise.wav
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>If everything worked properly, you should have heard noise come out of your speakers!</p>
+
+<h1>Wiring it all together</h1>
+
+<p>This can get a little fiddly, and I found it helpful to have 2 terminals open on the Pi at once.</p>
+
+<p>In terminal 1, run:</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>fluidsynth <span class="p">&amp;</span>ndash<span class="p">;</span>audio-driver<span class="o">=</span>alsa <span class="p">&amp;</span>ndash<span class="p">;</span>gain <span class="m">3</span> /usr/share/sounds/sf2/FluidR3_GM.sf2&lt;/p&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;p&gt;FluidSynth version 1.1.5
+</span><span class='line'>Copyright <span class="p">&amp;</span>copy<span class="p">;</span> 2000-2011 Peter Hanappe and others.
+</span><span class='line'>Distributed under the LGPL license.
+</span><span class='line'>SoundFont<span class="p">&amp;</span>reg<span class="p">;</span> is a registered trademark of E-mu Systems, Inc.&lt;/p&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;p&gt;fluid synth: warning: Requested a period size of 64, got <span class="m">256</span> instead
+</span><span class='line'>Type <span class="p">&amp;</span>lsquo<span class="p">;</span><span class="nb">help</span><span class="p">&amp;</span>rsquo<span class="p">;</span> <span class="k">for</span> <span class="nb">help </span>topics.&lt;/p&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;blockquote&gt;&lt;p&gt;
+</span></code></pre></td></tr></table></div></figure></notextile></div></p></blockquote>
+
+<p>In terminal 2, run:</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>aconnect -o&lt;/p&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;p&gt;client 14: <span class="p">&amp;</span>lsquo<span class="p">;</span>Midi Through<span class="p">&amp;</span>rsquo<span class="p">;</span> <span class="o">[</span><span class="nb">type</span><span class="o">=</span>kernel<span class="o">]</span>
+</span><span class='line'>    <span class="m">0</span> <span class="p">&amp;</span>lsquo<span class="p">;</span>Midi Through Port-0<span class="p">&amp;</span>rsquo<span class="p">;</span>
+</span><span class='line'>client 20: <span class="p">&amp;</span>lsquo<span class="p">;</span>UMX 25<span class="p">&amp;</span>rsquo<span class="p">;</span> <span class="o">[</span><span class="nb">type</span><span class="o">=</span>kernel<span class="o">]</span>
+</span><span class='line'>    <span class="m">0</span> <span class="p">&amp;</span>lsquo<span class="p">;</span>UMX <span class="m">25</span> MIDI <span class="m">1</span>   <span class="p">&amp;</span>rsquo<span class="p">;</span>
+</span><span class='line'>client 128: <span class="p">&amp;</span>lsquo<span class="p">;</span>FLUID Synth <span class="o">(</span>1179<span class="o">)</span><span class="p">&amp;</span>rsquo<span class="p">;</span> <span class="o">[</span><span class="nb">type</span><span class="o">=</span>user<span class="o">]</span>
+</span><span class='line'>    <span class="m">0</span> <span class="p">&amp;</span>lsquo<span class="p">;</span>Synth input port <span class="o">(</span>1179:0<span class="o">)</span><span class="p">&amp;</span>rsquo<span class="p">;</span>&lt;/p&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;p&gt;
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>Write down the client number for Fluidsynth as well.</p>
+
+<p>Now let&rsquo;s hook up both ends! In terminal 2, run:</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>&lt;/p&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;h1&gt;xx is your midi controller, yy fluidsynth&lt;/h1&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;p&gt;<span class="nv">$ </span>aconnect xx:0 yy:0
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>Play some notes on your keyboard - you should hear some piano sounds come out of your speakers!</p>
+
+<h1>Automating everything</h1>
+
+<p>Doing all the setup is fine and good, but I&rsquo;m not going to lug a keyboard around and run everything each time I power on the Pi! Let&rsquo;s get it happening automatically.</p>
+
+<blockquote><p>WARNING: Getting these next steps wrong could stop your Pi booting properly. Be careful!</p></blockquote>
+
+<h2>Switching to upstart</h2>
+
+<p>Run <code>sudo apt-get install upstart</code>, following the warnings carefully, then reboot your Pi.</p>
+
+<h2>Autologin</h2>
+
+<p>Now we&rsquo;ll set the Pi to autologin the <code>synth</code> user we made earlier. Backup <code>/etc/init/tty1.conf</code>, then edit it with sudo privileges so it looks like this:</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;h1>tty1 - getty&lt;/h1>
+</span><span class='line'>
+</span><span class='line'>&lt;p>#&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;h1>This service maintains a getty on tty1 from the point the system is&lt;/h1>
+</span><span class='line'>
+</span><span class='line'>&lt;h1>started until it is shut down again.&lt;/h1>
+</span><span class='line'>
+</span><span class='line'>&lt;p>start on stopped rc RUNLEVEL=[2345] and (
+</span><span class='line'>            not-container or
+</span><span class='line'>            container CONTAINER=lxc or
+</span><span class='line'>            container CONTAINER=lxc-libvirt)&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;p>stop on run level [!2345]&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;p>respawn
+</span><span class='line'>exec /sbin/getty -8 -a synth 38400 tty1</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>This will automatically login the <code>synth</code> user on the first terminal. You can verify this by plugging a monitor into the Pi and rebooting it &ndash; instead of seeing a login prompt you should see a shell for <code>synth</code>.</p>
+
+<h2>.profile</h2>
+
+<p>Whenever you log into a Linux machine, a script called <code>.profile</code> gets run. Adding our fluidsynth setup from earlier (with a few tweaks) will run everything whenever the Pi is booted up.</p>
+
+<p>Add the following to the end of <code>/home/synth/.profile</code>:</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>&lt;/p&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;h1&gt;Run fluidsynth, but this <span class="nb">time </span>as a non-interactive server&lt;/h1&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;p&gt;fluidsynth -is <span class="p">&amp;</span>ndash<span class="p">;</span>audio-driver<span class="o">=</span>alsa <span class="p">&amp;</span>ndash<span class="p">;</span>gain <span class="m">3</span> /usr/share/sounds/sf2/FluidR3_GM.sf2 <span class="p">&amp;</span>amp<span class="p">;</span>&lt;/p&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;h1&gt;give it <span class="nb">time </span>to boot up&lt;/h1&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;p&gt;sleep 10&lt;/p&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;h1&gt;connect the controller to fluidsynth&lt;/h1&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;h1&gt;Don<span class="p">&amp;</span>rsquo<span class="p">;</span>t forget to replace these with the client numbers!&lt;/h1&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;p&gt;aconnect xx:0 yy:0&lt;/p&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;h1&gt;Give fluidsynth a nice high priority so it gets as much CPU as possible!&lt;/h1&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;p&gt;sudo renice -n -18 -u synth
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>Reboot your Pi, and when it&rsquo;s finished booting, play some keys and listen to your new synth!</p>
+
+<h1>Troubleshooting</h1>
+
+<h2>ALSA</h2>
+
+<p>If running <code>aplay</code> above didn&rsquo;t make any noise, perhaps you need to tweak your Pi&rsquo;s volume levels. Run <code>alsamixer</code> and check that your output is right:</p>
+
+<p><img src="http://andrewdotni.ch//images/alsamixer.png"></p>
+
+<p>You should make sure that the output is set to be the Broadcom chip, <em>not</em> HDMI or your MIDI device if you&rsquo;ve plugged it in. You can adjust the volume with the arrow keys &amp;endash if this isn&rsquo;t working, try pressing <code>m</code> to unmute.</p>
+]]></content>
+  </entry>
+  
+</feed>

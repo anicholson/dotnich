@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: 8tracks | andrewdotnich]]></title>
+  <link href="http://andrewdotni.ch//blog/categories/8tracks/atom.xml" rel="self"/>
+  <link href="http://andrewdotni.ch//"/>
+  <updated>2015-12-09T11:53:42+11:00</updated>
+  <id>http://andrewdotni.ch//</id>
+  <author>
+    <name><![CDATA[Andy Nicholson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[8tracks Mix: En verdad, una musa]]></title>
+    <link href="http://andrewdotni.ch//blog/2010/04/14/8tracks-mix-en-verdad-una-musa/"/>
+    <updated>2010-04-14T23:24:00+10:00</updated>
+    <id>http://andrewdotni.ch//blog/2010/04/14/8tracks-mix-en-verdad-una-musa</id>
+    <content type="html"><![CDATA[<div class='post'>
+Just created a new mix on <a href="http://8tracks.com">8tracks.com</a>. It's a mixture of loungy/jazzy/quirky tunes, with a common thread of emotion woven through. Enjoy!<br /><br /><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="100%" height="120" ><param name="movie" value="http://8tracks.com/mixes/107039/player_v2"><param name="allowscriptaccess" value="always"><param name="FlashVars" value="bg_color=_000000"><embed FlashVars="bg_color=_000000" src="http://8tracks.com/mixes/107039/player_v2" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="100%" height="120" allowscriptaccess="always" ></embed></object></div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Music mixes!]]></title>
+    <link href="http://andrewdotni.ch//blog/2009/07/29/music-mixes/"/>
+    <updated>2009-07-29T11:44:00+10:00</updated>
+    <id>http://andrewdotni.ch//blog/2009/07/29/music-mixes</id>
+    <content type="html"><![CDATA[<div class='post'>
+Just joined <a href="http://8tracks.com">8tracks.com</a>, a site that allows you to easily throw music tracks together to form a virtual mixtape.<br /><br />Here's the first one I made, hope you like it :)<br /><br /><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="100%" height="80" ><param name="movie" value="http://8tracks.com/mixes/38858/player_v2"><param name="allowscriptaccess" value="always"><param name="FlashVars" value="bg_color=_052e49"><embed FlashVars="bg_color=_052e49" src="http://8tracks.com/mixes/38858/player_v2" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="100%" height="80" allowscriptaccess="always" ></embed></object></div>
+
+]]></content>
+  </entry>
+  
+</feed>

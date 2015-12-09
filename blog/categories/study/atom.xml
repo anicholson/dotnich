@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: study | andrewdotnich]]></title>
+  <link href="http://andrewdotni.ch//blog/categories/study/atom.xml" rel="self"/>
+  <link href="http://andrewdotni.ch//"/>
+  <updated>2015-12-09T11:53:42+11:00</updated>
+  <id>http://andrewdotni.ch//</id>
+  <author>
+    <name><![CDATA[Andy Nicholson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[New blog!]]></title>
+    <link href="http://andrewdotni.ch//blog/2009/12/24/new-blog/"/>
+    <updated>2009-12-24T14:27:00+11:00</updated>
+    <id>http://andrewdotni.ch//blog/2009/12/24/new-blog</id>
+    <content type="html"><![CDATA[<div class='post'>
+In contrast to life, there hasn't been much happening here of late. Sorry!<br /><br />However, I have just started a blog relating to the Research Project I've started at Swinburne.<br /><br />You can read about what I'm doing over at <a href="http://thegloofactory.blogspot.com">The GLoo Factory</a>. It assumes a fair amount of programming knowledge, so apologies if it doesn't make any sense :)<br /><br />A.</div>
+
+
+<h2>Comments</h2>
+
+
+<div class='comments'>
+<div class='comment'>
+<div class='author'>Andy</div>
+<div class='content'>
+Sounds fascinating. You&#39;re very good at explaining things; even I enjoyed reading :D</div>
+</div>
+</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[If only…]]></title>
+    <link href="http://andrewdotni.ch//blog/2009/06/13/if-only/"/>
+    <updated>2009-06-13T10:58:00+10:00</updated>
+    <id>http://andrewdotni.ch//blog/2009/06/13/if-only</id>
+    <content type="html"><![CDATA[<div class='post'>
+<div style="text-align: left;">…the gaps in exams could be completed this way:</div><div style="text-align: left;"><br /></div><div><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;width: 400px; height: 155px;" src="http://wondermark.com/c/2009-06-12-526glorp.gif" border="0" alt="" /></div><div style="text-align: center;"><br /></div><div style="text-align: left;">(<a href="http://wondermark.com/526/"><span class="Apple-style-span"  style="font-size:small;">Source</span></a>)</div></div>
+
+
+<h2>Comments</h2>
+
+
+<div class='comments'>
+<div class='comment'>
+<div class='author'>Andy</div>
+<div class='content'>
+So this is why anicholson.net/musings went so quiet for so long.<br /><br />Will have to catch up during the holidays.</div>
+</div>
+</div>
+
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: kata | andrewdotnich]]></title>
+  <link href="http://andrewdotni.ch//blog/categories/kata/atom.xml" rel="self"/>
+  <link href="http://andrewdotni.ch//"/>
+  <updated>2015-12-09T11:53:42+11:00</updated>
+  <id>http://andrewdotni.ch//</id>
+  <author>
+    <name><![CDATA[Andy Nicholson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Kata: Bowling]]></title>
+    <link href="http://andrewdotni.ch//blog/2015/01/19/kata-bowling/"/>
+    <updated>2015-01-19T18:30:00+11:00</updated>
+    <id>http://andrewdotni.ch//blog/2015/01/19/kata-bowling</id>
+    <content type="html"><![CDATA[<h2>Description</h2>
+
+<p>Accurately model a game of ten-pin bowling. Inspired by a mini-Code Retreat I attended years ago, and the front page of <a href="http://rspec.info/">rspec.info</a>.</p>
+
+<h2>Tests</h2>
+
+<p><div><script src='https://gist.github.com/f0164c3948c96311cf40.js?file=bowling_spec.rb'></script>
+<noscript><pre><code>require &#39;bowling&#39;
+
+describe Bowling do
+  describe &#39;#hit&#39; do
+    it { is_expected.to respond_to :hit }
+
+    it &#39;rejects non-numeric args&#39; do
+      expect { subject.hit(&#39;aha&#39;) }.to raise_exception
+    end
+
+    it &#39;rejects negative numbers&#39; do
+      expect { subject.hit(-1) }.to raise_exception
+    end
+
+    it &#39;rejects higher scores than there are pins to hit&#39; do
+      expect { subject.hit(11) }.to raise_exception
+    end
+  end
+
+  describe &#39;#score&#39; do
+    it { is_expected.to respond_to :score }
+    it &#39;scores 0 for an all-gutter game&#39; do
+      20.times { subject.hit 0 }
+
+      expect(subject.score).to eq(0)
+    end
+
+    it &#39;scores the sum of pins for a game with no strikes or spares&#39; do
+      attempts = (1..20).map {|_| rand(5) }
+      attempts.each {|attempt| subject.hit attempt }
+
+      puts attempts
+
+      expect(subject.score).to eq(attempts.reduce(0, &amp;:+))
+
+    end
+
+    it &#39;adds the next score on when a spare is scored&#39; do
+      subject.hit 6
+      subject.hit 4 # spare
+      subject.hit 8
+      subject.hit 0
+
+      expect(subject.score).to eq(26)
+    end
+
+    it &#39;only recognises scores on frame boundaries&#39; do
+      subject.hit 6
+      subject.hit 3
+      subject.hit 7 # not a spare
+      subject.hit 1
+
+      expect(subject.score).to eq(17)
+    end
+
+    it &#39;adds the next two scores on when a strike is scored&#39; do
+      subject.hit 10 # Strike!
+      subject.hit 3
+      subject.hit 6
+
+      expect(subject.score).to eq(28)
+    end
+
+    it &#39;handles turkeys&#39; do
+      3.times { subject.hit 10 }
+      subject.hit 0
+      subject.hit 9
+
+      expect(subject.score).to eq(78)
+    end
+
+    it &#39;handles strikes after spares&#39; do
+      subject.hit 7
+      subject.hit 3  # spare
+      subject.hit 10 # Strike!
+
+      expect(subject.score).to eq(30)
+    end
+
+    it &#39;handles spares after strikes&#39; do
+      subject.hit 10 # Strike!
+      subject.hit 5
+      subject.hit 5  # spare
+
+      expect(subject.score).to eq(30)
+    end
+
+    it &#39;scores 270 for a 9-frame perfect&#39; do
+      9.times { subject.hit 10 }
+      subject.hit 0
+      subject.hit 0
+
+      expect(subject.score).to eq(240)
+    end
+
+    it &#39;scores 300 for a perfect game&#39; do
+      12.times { subject.hit 10 }
+
+      expect(subject.score).to eq(300)
+    end
+  end
+end</code></pre></noscript></div>
+</p>
+
+<h2>Code</h2>
+
+<p><div><script src='https://gist.github.com/f0164c3948c96311cf40.js?file=bowling.rb'></script>
+<noscript><pre><code>class Bowling
+  class EmptyFrame
+    def pin_total
+      0
+    end
+
+    def scores
+      [0,0]
+    end
+
+    def strike?; false; end
+    def spare?;  false; end
+    def last?;   true;  end
+  end
+  class Frame
+    def initialize(last = false)
+      @scores = []
+      @last   = last
+    end
+
+    def last?
+      @last
+    end
+
+    def full?
+      if last?
+        if (scores.first == 10) || (scores.count &gt;= 2 &amp;&amp; (scores[0] + scores[1] == 10))
+          scores.count == 3
+        else
+          scores.count == 2
+        end
+      else
+        strike? || spare? || (@scores.count == 2)
+      end
+    end
+
+    def record(pins)
+      @scores &lt;&lt; pins
+    end
+
+    def spare?
+      @scores.count == 2 &amp;&amp; pin_total == 10
+    end
+
+    def strike?
+      @scores.count == 1 &amp;&amp; pin_total == 10
+    end
+
+    def pin_total
+      @scores.reduce(0, &amp;:+)
+    end
+
+    def scores
+      @scores
+    end
+
+    def next
+      @next_frame
+    end
+
+    def next=(frame)
+      @next_frame = frame
+    end
+  end
+
+  def initialize
+    @score_history  = []
+    @frames         = []
+    @current_frame  = Frame.new
+  end
+
+
+  def hit(pins)
+    raise ArgumentError unless pins.is_a? Integer
+    raise ArgumentError unless pins &gt;= 0 &amp;&amp; pins &lt;= 10
+
+    @score_history &lt;&lt; pins
+
+    @current_frame.record(pins)
+
+    if @current_frame.full?
+      @frames &lt;&lt; @current_frame
+      @current_frame.next = Frame.new(last_frame?)
+      @current_frame = @current_frame.next
+    end
+  end
+
+  def last_frame?
+    @frames.count == 9
+  end
+
+  def score
+    score = 0
+    @frames.each_with_index do |frame, idx|
+      next_frame           = @frames[idx + 1] || EmptyFrame.new
+      the_frame_after_that = @frames[idx + 2] || EmptyFrame.new
+
+      next_score = if frame.strike?
+                     if frame.last?
+                       frame.pin_total
+                     else
+                       if next_frame.strike?
+                         20 + the_frame_after_that.scores.first
+                       elsif next_frame.last?
+                         10 + next_frame.scores[0] + next_frame.scores[1]
+                       else
+                        10 + next_frame.pin_total
+                       end
+                     end
+                   elsif frame.spare?
+                     if frame.last?
+                       frame.pin_total + frame.scores.last
+                     else
+                       10 + next_frame.scores.first
+                     end
+                   else
+                     frame.pin_total
+                   end
+
+      score += next_score
+      puts &quot;Frame #{idx}: #{next_score} (#{score})&quot;
+    end
+
+    score
+  end
+
+  private
+
+end</code></pre></noscript></div>
+</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Introducing Katas]]></title>
+    <link href="http://andrewdotni.ch//blog/2015/01/19/katas/"/>
+    <updated>2015-01-19T18:17:51+11:00</updated>
+    <id>http://andrewdotni.ch//blog/2015/01/19/katas</id>
+    <content type="html"><![CDATA[<p>Something I’ve really started to enjoy is working through software katas.</p>
+
+<p>In karate, katas are exercises the student repeats many, many times. Each time through, the student will (hopefully) improve little by little in order to develop their technique and skill.</p>
+
+<p>Similarly in software, katas are <a href="http://codekata.com/">small, well-defined problems</a> that are useful to practice software design techniques.</p>
+
+<p>Inspired partly by Magnus Holm’s <a href="http://timelessrepo.com/">timeless repo</a>, I’m going to post these kata here as embedded gists, so as I update them (and make more attempts at solving them) we’ll be able to see how my thoughts on software design grow and change.</p>
+
+<p>The first one I’m going to put up is the bowling kata, and I’ll keep the full list up-to-date on <a href="http://andrewdotni.ch/katas">the Kata page</a> :)</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: parenting | andrewdotnich]]></title>
+  <link href="http://andrewdotni.ch//blog/categories/parenting/atom.xml" rel="self"/>
+  <link href="http://andrewdotni.ch//"/>
+  <updated>2015-12-09T11:53:42+11:00</updated>
+  <id>http://andrewdotni.ch//</id>
+  <author>
+    <name><![CDATA[Andy Nicholson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Project 1, Iteration 0: Baby Sleep Monitor]]></title>
+    <link href="http://andrewdotni.ch//blog/2015/01/30/baby-sleep-monitor/"/>
+    <updated>2015-01-30T18:04:27+11:00</updated>
+    <id>http://andrewdotni.ch//blog/2015/01/30/baby-sleep-monitor</id>
+    <content type="html"><![CDATA[<p>Earlier this year, I <a href="/blog/2015/01/08/welcome-to-2015/">resolved to complete more projects</a>, and this is the first!</p>
+
+<p>In just a few months time, I’m going to become a father for the first time. Being an expectant parent, and having some electronics lying around, I thought I’d combine the two!</p>
+
+<p>The idea for this came from a <a href="http://blog.technical.io/post/100161311142/tessel-keen-io">Tessel blog post</a> - taking readings from their modules and sending them directly to a cloud data service. I didn’t want (or think I’d get away with!) bare circuit boards in my newborn’s nursery, so I decided to make a small cover for the board as well.</p>
+
+<p>I’ll be upfront: it’s not quite finished yet. I’m annoyed about that. But in the interests of accountability &amp; transparency, iteration 0 is done!</p>
+
+<p><img src='http://andrewdotni.ch//images/monitor_topless.jpg'>
+<img src='http://andrewdotni.ch//images/monitor_with_top.jpg'></p>
+
+<p>I made a couple of errors, which I’ll fix when I do iteration 1.</p>
+
+<ul>
+<li>I got the holes <em>almost</em> lined up correctly, but not enough to make the bolts sit smoothly with the PCB. I’ve got to be more precise.</li>
+<li>I also painted the boards before drilling the holes (because I was ready to paint but not to drill) - sometimes you just have to be blocked.</li>
+</ul>
+
+
+<h2>What I wanted to discover</h2>
+
+<ul>
+<li>That I could simply pick up a new skill, and easily execute what I wanted to do. (This looks really embarrassing when I write it down!)</li>
+</ul>
+
+
+<h2>What I learned instead</h2>
+
+<ul>
+<li>I’m not as good with my hands as I thought.</li>
+<li>Knowing what I want might be a good step towards the result, but it’s foolish to think I can get there in one step.</li>
+<li>For me, better preparation is more important than feeling like I’m moving.</li>
+<li>Iteration is totally acceptable.</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

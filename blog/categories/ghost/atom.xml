@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: ghost | andrewdotnich]]></title>
+  <link href="http://andrewdotni.ch//blog/categories/ghost/atom.xml" rel="self"/>
+  <link href="http://andrewdotni.ch//"/>
+  <updated>2015-12-09T11:53:42+11:00</updated>
+  <id>http://andrewdotni.ch//</id>
+  <author>
+    <name><![CDATA[Andy Nicholson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Fixing broken Web Fonts on Ghost]]></title>
+    <link href="http://andrewdotni.ch//blog/2015/03/30/woff-fonts-on-ghost/"/>
+    <updated>2015-03-30T16:55:58+11:00</updated>
+    <id>http://andrewdotni.ch//blog/2015/03/30/woff-fonts-on-ghost</id>
+    <content type="html"><![CDATA[<h1>Troubleshooting Webfonts on Ghost</h1>
+
+<p>While getting the <a href="http://blog.cogent.co/">Cogent Blog</a> up and running recently, I ran into a strange issue with the <a href="http://ghost.io/">Ghost</a> blogging platform and WebFonts - hopefully this will save you some pain.</p>
+
+<p>We use a couple custom fonts on the blog, defining them using the CSS<wbr><a href="https://developer.mozilla.org/en/docs/Web/CSS/@font-face"><code>@font-face directives</code></a>. One font was worked fine, but the other consistently failed to show up.</p>
+
+<h1>What the WOFF?</h1>
+
+<p>For the font that didn&rsquo;t work, the browser received a 303 redirect to the same URI, but with a trailing slash. The font that worked was served just fine.</p>
+
+<p>It turned out the &ldquo;broken&rdquo; font was in WOFF format, and the one that worked was in WOFF2 format. This wouldn&rsquo;t normally make any difference, but something was definitely odd. Our blog is hosted on <a href="http://ghost.io/">Ghost.io</a> too, so troubleshooting options were limited.</p>
+
+<h1>Tricksy MIME Types</h1>
+
+<p>The <s>solution</s> workaround turned out to be really simple:</p>
+
+<blockquote><p>Rename the broken font&rsquo;s extension from <strong><code>.woff</code></strong> to <strong><code>.woff2</code></strong>, and fix the paths in the CSS.</p></blockquote>
+
+<p>I&rsquo;m not sure exactly why this works. Maybe it&rsquo;s to do with Ghost&rsquo;s routing rules – or maybe it&rsquo;s the fault of Ghost&rsquo;s CDN. Either way, hopefully this solves you some head-scratching if your fonts aren&rsquo;t working as you expect.</p>
+]]></content>
+  </entry>
+  
+</feed>

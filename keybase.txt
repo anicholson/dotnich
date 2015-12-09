@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/andrewdotnich
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://andrewdotni.ch
+  * I am andrewdotnich (https://keybase.io/andrewdotnich) on keybase.
+  * I have a public key ASD9uQS7he9dDqhPl638kbWfHGifEyTiqlDvbNh1UGpA9Qo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120fdb904bb85ef5d0ea84f97adfc91b59f1c689f1324e2aa50ef6cd875506a40f50a",
+            "host": "keybase.io",
+            "kid": "0120fdb904bb85ef5d0ea84f97adfc91b59f1c689f1324e2aa50ef6cd875506a40f50a",
+            "uid": "391d0fa2cdd340f75b2a9a90a619b819",
+            "username": "andrewdotnich"
+        },
+        "service": {
+            "hostname": "andrewdotni.ch",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.5"
+    },
+    "ctime": 1449620635,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1449620546,
+        "hash": "7ce099a5747ddbf08cb21777d29568650d372b81b305bf4fb8c598dda0dee22d624cfb2bed7f17103b195ea97b0d2669a187424cd81d74da911dd8cdd1c613f3",
+        "seqno": 331624
+    },
+    "prev": "e6172dd96b07b213ec452baf386d674367dad3a6a57faf33638b783bcb113305",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg/bkEu4XvXQ6oT5et/JG1nxxonxMk4qpQ72zYdVBqQPUKp3BheWxvYWTFAvl7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZmRiOTA0YmI4NWVmNWQwZWE4NGY5N2FkZmM5MWI1OWYxYzY4OWYxMzI0ZTJhYTUwZWY2Y2Q4NzU1MDZhNDBmNTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZmRiOTA0YmI4NWVmNWQwZWE4NGY5N2FkZmM5MWI1OWYxYzY4OWYxMzI0ZTJhYTUwZWY2Y2Q4NzU1MDZhNDBmNTBhIiwidWlkIjoiMzkxZDBmYTJjZGQzNDBmNzViMmE5YTkwYTYxOWI4MTkiLCJ1c2VybmFtZSI6ImFuZHJld2RvdG5pY2gifSwic2VydmljZSI6eyJob3N0bmFtZSI6ImFuZHJld2RvdG5pLmNoIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC41In0sImN0aW1lIjoxNDQ5NjIwNjM1LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0NDk2MjA1NDYsImhhc2giOiI3Y2UwOTlhNTc0N2RkYmYwOGNiMjE3NzdkMjk1Njg2NTBkMzcyYjgxYjMwNWJmNGZiOGM1OThkZGEwZGVlMjJkNjI0Y2ZiMmJlZDdmMTcxMDNiMTk1ZWE5N2IwZDI2NjlhMTg3NDI0Y2Q4MWQ3NGRhOTExZGQ4Y2RkMWM2MTNmMyIsInNlcW5vIjozMzE2MjR9LCJwcmV2IjoiZTYxNzJkZDk2YjA3YjIxM2VjNDUyYmFmMzg2ZDY3NDM2N2RhZDNhNmE1N2ZhZjMzNjM4Yjc4M2JjYjExMzMwNSIsInNlcW5vIjo5LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQDU4YPWwNeiTNj0ysW9kaiK2kpIiwK9vnBHp87GgryIAinp3goVZ2iSyalhlb/6xNnvO5qoJNX19P1ZPAx1ncQGoc2lnX3R5cGUgo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/andrewdotnich
+
+==================================================================

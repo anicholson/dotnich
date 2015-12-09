@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: ruby | andrewdotnich]]></title>
+  <link href="http://andrewdotni.ch//blog/categories/ruby/atom.xml" rel="self"/>
+  <link href="http://andrewdotni.ch//"/>
+  <updated>2015-12-09T11:53:42+11:00</updated>
+  <id>http://andrewdotni.ch//</id>
+  <author>
+    <name><![CDATA[Andy Nicholson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Kiva Snapshot]]></title>
+    <link href="http://andrewdotni.ch//blog/2015/04/30/kiva-snapshot/"/>
+    <updated>2015-04-30T19:40:50+10:00</updated>
+    <id>http://andrewdotni.ch//blog/2015/04/30/kiva-snapshot</id>
+    <content type="html"><![CDATA[<p>I started a small group of microfinance loaners. I&rsquo;ve been building a mini site to give us a better picture of what we&rsquo;ve achieved, and what we&rsquo;d like to do next. Part of my <a href="/blog/2015/01/08/welcome-to-2015/">year of projects</a>.</p>
+
+<h1>Build People</h1>
+
+<p>As a well-off, young male white guy living in one of the richest countries in the world, I have <em>no idea</em> what poverty feels like. To be honest, I hope I never have to. I was raised to understand that all &ldquo;my&rdquo; money? It&rsquo;s not really mine - I&rsquo;m just a steward of it. And as someone to whom <a href="http://www.esvbible.org/Luke%2012%3A48/">much has been given</a>, I want to give a good account of what I have.</p>
+
+<p>I believe in charitable giving - giving without expecting to receive in return. I believe that international aid is, <a href="https://www.youtube.com/watch?v=inClCwsVwjY">to a point</a>, a good thing - and something that both citizens and governments alike should get behind. But not every solution fits every problem, especially at the smaller scale.</p>
+
+<h2>Big Differences in Small Packages</h2>
+
+<p>I really liked the concept of microfinance from the first time I heard about it. Much of the world has limited access to banking  &amp; credit infrastructure, so anything that gives these people more options is a good thing in my book. But there&rsquo;s a gap between the people looking to borrow money and those (like us) who have it. Enter sites like <a href="https://kiva.org/">Kiva</a>. Here&rsquo;s part of what they have to say about microfinance:</p>
+
+<blockquote><p>Microfinance is the supply of loans, savings, and other basic financial services to the poor. <a href="http://cgap.org">(http://cgap.org)</a></p>
+
+<p>As these financial services usually involve small amounts of money - small loans, small savings, etc. - the term &ldquo;microfinance&rdquo; helps to differentiate these services from those which formal banks provide.</p>
+
+<p>Why are they small? Someone who doesn&rsquo;t have a lot of money isn&rsquo;t likely to want or be able to take out a $50,000 loan, or be able to open a savings account with an opening balance of $1,000.</p></blockquote>
+
+<p>If you want to know more, their <a href="http://www.kiva.org/about/microfinance">introductory article on microfinance</a> is a really great place to start. Go read it now, I&rsquo;ll wait.</p>
+
+<p>Kiva does a great job of bridging the gap between those looking to lend money and those who want to borrow it. There are plenty of micro financing groups on the ground around the world, but they often face similar problems, just at a slightly higher scale. Kiva is a clearing house that makes finding projects to fund simple. By combining loans as small as 25USD together, they&rsquo;re able to connect a large pool of lenders to a large pool of borrowers, without requiring a single lender to fund an entire loan themselves.</p>
+
+<h2>About my group</h2>
+
+<p>At the start of 2014, I asked around and found 9 friends willing to start a small microfinance group, using Kiva as our source of loans. I didn&rsquo;t want this group to be at the expense of other causes we were <em>already</em> supporting, so I deliberately set the bar low.</p>
+
+<p>The rules are simple:</p>
+
+<ol>
+<li>Every month, each member contributes 5USD, so every month there is at least 50USD to loan.</li>
+<li>All funds from repaid loans should be re-loaned as soon as possible.</li>
+<li>Each month, one member gets to fund a loan using all the money available in our Kiva account.</li>
+<li>Even though these are loans, not donations, we will not &ldquo;take the money back&rdquo;. If and when the group winds up, the funds will be donated to a charity we agree on.</li>
+</ol>
+
+
+<p>After just over a year in operation, the results so far have been good! In the 17 months since we started, we&rsquo;ve put in (17 x 50 = 850USD), but we&rsquo;ve loaned out 1250USD! This means that nearly half our money has been loaned twice, and this will only get faster over time.</p>
+
+<h1>Build software</h1>
+
+<p><aside><a href="http://github.com/anicholson/kiva_snapshot">View source code at Github</a></aside></p>
+
+<p>Kiva <a href="http://build.kiva.org/api">has a pretty nice API</a>, which lets you pull all sorts of interesting info out about public information (loans, field partners, etc) as well as your own personal information (loans you&rsquo;ve funded, your available balance…)</p>
+
+<p>While Kiva shows some pretty cool stats itself, I wanted to show other things, like which person funded which loan. We&rsquo;re also curious about how quickly money cycles round, so I&rsquo;ll be building some insights about that too.</p>
+
+<h3>Screenshots</h3>
+
+<p><img title="Graphs showing progress over time" src="http://andrewdotni.ch//images/kiva_snapshot_graph.png"></p>
+
+<p><img title="Some of our recent loans" src="http://andrewdotni.ch//images/kiva_snapshot_loans.png"></p>
+
+<p><img title="A tool to help me pull API data out" src="http://andrewdotni.ch//images/kiva_snapshot_api_query.png"></p>
+
+<h3>Frontend Stack</h3>
+
+<ul>
+<li><a href="http://angularjs.org">AngularJS</a></li>
+<li><a href="http://highcharts.com/">Highcharts</a></li>
+<li><a href="http://bower.io">Bower</a></li>
+<li><a href="http://highlightjs.org/">Highlight.JS</a></li>
+<li><a href="http://bourbon.io">Bourbon</a></li>
+<li><a href="http://neat.bourbon.io">Neat</a></li>
+</ul>
+
+
+<h3>Backend Stack</h3>
+
+<ul>
+<li><a href="http://jruby.org/">JRuby 1.7.19</a></li>
+<li><a href="http://sinatrarb.com/">Sinatra</a></li>
+<li><a href="https://github.com/rails/rails/tree/4-2-stable/activerecord">ActiveRecord 4.2</a></li>
+<li><a href="http://postgresql.org">Postgres 9.3</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[RubyConf AU 2015]]></title>
+    <link href="http://andrewdotni.ch//blog/2015/02/12/rubyconf-au-2015/"/>
+    <updated>2015-02-12T21:40:21+11:00</updated>
+    <id>http://andrewdotni.ch//blog/2015/02/12/rubyconf-au-2015</id>
+    <content type="html"><![CDATA[<p>February 2015 saw Federation Square host the latest instalment of <a href="http://rubyconf.org.au/">RubyConf AU</a>, one of the best tech conferences in Australia. Over 450 Ruby developers from Australia, New Zealand &amp; beyond gathered for 4 days of workshops, talks, and social activities.</p>
+
+<p><img src='http://andrewdotni.ch//images/rubyconf_au_15_conference.jpg' /></p>
+
+<h1>…in 50 words or less</h1>
+
+<p>We’re growing up, Ruby community – but it’s okay! Ruby isn’t great just because it’s new, so let’s not freak out when other New Hotnesses™ come. If we <a href="#on_the_shoulders_of_giants">learn from those who’ve come before</a>, <a href="#embrace_new_ideas">embrace new ideas</a>, and <a href="#diversity">welcome new &amp; different voices</a>, we’ll both <a href="#do_all_the_cool_things">survive and thrive</a>!</p>
+
+<h1>…in tweets</h1>
+
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/hashtag/RubyConf_AU?src=hash">#RubyConf_AU</a> may very well be my favorite conference ever. Everything was perfect, great talks, wonderful people… So good.</p>&mdash; Coraline Ada Ehmke (@CoralineAda) <a href="https://twitter.com/CoralineAda/status/563938042365239296">February 7, 2015</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/hashtag/rubyconf_au?src=hash">#rubyconf_au</a> thoughts: we&#39;re a creative, welcoming community. We make things.&#10;&#10;So was (is?) Perl. So is JavaScript.</p>&mdash; Michael Pearson News (@mipearson) <a href="https://twitter.com/mipearson/status/564615942324248577">February 9, 2015</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<blockquote class="twitter-tweet" lang="en"><p>What has been SUPER awesome about <a href="https://twitter.com/hashtag/RubyConf_AU?src=hash">#RubyConf_AU</a> is that despite not being a Rubyist, I got so much out of it &amp; felt so welcome. Thanks all &lt;3</p>&mdash; Liam Esler (@liamesler) <a href="https://twitter.com/liamesler/status/564033026695249920">February 7, 2015</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p><img src='http://andrewdotni.ch//images/collis.jpg' /></p>
+
+<h1>…the talks!</h1>
+
+<p>I only attended the talks, so I can’t comment on the workshops, although every attendee I spoke to enjoyed them. The 2 days of talks only had the single track, but I think they fell neatly into a few distinct categories. Here are my highlights from each :) <s>They will be available on <a href="http://eventer.com/">Eventer</a> soon, so I’ll update these with links when that happens.</s></p>
+
+<p><strong>Update: The talks are now available, so <a href="https://rubyconf.eventer.com/rubyconf-australia-2015-1223">go and watch them all!</a></strong></p>
+
+<h2><a name="on_the_shoulders_of_giants"></a>“Hey, there’s all this stuff people have known for a while!”</h2>
+
+<p>As Ruby &amp; Rails get older, we’re using it to solve bigger problems (good!) and deal with <a href="http://tvtropes.org/pmwiki/pmwiki.php/Main/EldritchAbomination">Eldritchian abominations</a> created by past us (bad!).</p>
+
+<h3><a href="https://rubyconf.eventer.com/rubyconf-australia-2015-1223/loving-legacy-code-by-keith-pitty-1718">Loving Legacy Code – Keith Pitty</a></h3>
+
+<p>Got an old, hairy codebase to look after? Keith has some gentle suggestions for getting along with it.</p>
+
+<h3><a href="https://rubyconf.eventer.com/rubyconf-australia-2015-1223/a-case-for-use-cases-by-shevaun-coker-1734">A Case for Use Cases – Shevaun Coker</a></h3>
+
+<p>or, How Neither <em>Thomas the Tank Engine</em> Nor Plus Sizes Are The Answer.</p>
+
+<h3><a href="https://rubyconf.eventer.com/rubyconf-australia-2015-1223/pre-factoring-getting-it-closer-to-right-the-first-time-by-coraline-ada-ehmke-1726">Prefactoring: Getting it (Closer to) Right the First Time – Coraline Ada Ehmke</a> &amp; <a href="https://rubyconf.eventer.com/rubyconf-australia-2015-1223/service-oriented-disasters-by-rachel-myers-1732">Service-Oriented Disasters – Rachel Meyers</a></h3>
+
+<p>Two great talks on traps &amp; pitfalls to avoid when breaking apps into smaller pieces. The highlights of a strong SOA tinge through the technical talks.</p>
+
+<h2><a name="do_all_the_cool_things"></a>“What cool things are Ruby people doing now?”</h2>
+
+<p>Like refreshing palate cleansers on a degustation menu, these were sprinkled through at just the right times. Real cool things being done by real cool people.</p>
+
+<h3><a href="https://rubyconf.eventer.com/rubyconf-australia-2015-1223/principles-of-play-by-linda-liukas-1717">Principles of Play – Linda Liukas</a></h3>
+
+<p>This was a wonderful talk. Children are great because they haven’t learned about what they “shouldn’t do” yet. I will be <a href="http://www.helloruby.com/">buying her book</a> when I become a Dad, regardless of whether I have a son or a daughter :)</p>
+
+<h3><a href="https://rubyconf.eventer.com/rubyconf-australia-2015-1223/sweaters-as-a-service-by-amy-wibowo-1725">Sweaters as a Service – Amy Wibowo</a></h3>
+
+<p>Amy and her team introduced Ruby to a 1980s knitting machine, and helped them to knit pretty pictures together.</p>
+
+<h3><a href="https://rubyconf.eventer.com/rubyconf-australia-2015-1223/saving-the-world-literally-with-ruby-by-sean-marcia-1721">Saving the World (Literally!) with Ruby – Sean Marcia</a></h3>
+
+<p>Big world problems don’t <em>only</em> need big solutions. Sometimes little projects can be a big help in themselves. Sean used Raspberry Pis and Ruby to give the plight of honeybees a voice.</p>
+
+<h3><a href="https://rubyconf.eventer.com/rubyconf-australia-2015-1223/programming-as-performance-by-joseph-wilk-1733">Programming as Performance – Joseph Wilks</a></h3>
+
+<p>Live coding can be just as compelling as any other live art form. Joseph gave us a peek into the tools that exist for live coding music, and then gave a stunning demo of what’s possible with Clojure + Emacs.</p>
+
+<p><img src='http://andrewdotni.ch//images/repl_electric.jpg' /></p>
+
+<h2><a name="embrace_new_ideas"></a>“What new stuff could make Ruby better?”</h2>
+
+<p>A great mixture of humanity, high–level maths, and where our language might go in future.</p>
+
+<h3><a href="https://rubyconf.eventer.com/rubyconf-australia-2015-1223/what-is-a-rubyist-by-steve-klabnik-1728">What is a Rubyist? – Steve Klabnik</a></h3>
+
+<p>Plato, Process Philosophy, and a gentle prod to look outside our own bubble. Presented from a Moleskine, because hipster NY :)</p>
+
+<h3><a href="https://rubyconf.eventer.com/rubyconf-australia-2015-1223/consider-static-typing-by-tom-stuart-1720">Consider Static Typing – Tom Stuart</a></h3>
+
+<p>Ruby’s dynamically typed, and attracts people who like dynamic typing. Tom wonders whether we can’t have our cake and eat it too?</p>
+
+<h3><a href="https://rubyconf.eventer.com/rubyconf-australia-2015-1223/towards-a-higher-level-language-by-erik-michaels-ober-1746">Towards a Higher-Level Language – Erik Michaels-Ober</a></h3>
+
+<p>Ruby’s a very high-level language. But while people are trying to “make a <a href="http://www.rust-lang.org/">better</a> <a href="http://golang.org/">C</a> or <a href="http://clojure.org/">Lisp</a>”, nobody’s really trying to build a better Ruby. Why not?</p>
+
+<h2><a name=“diversity”></a>“How can we be make ‘us’ better?”</h2>
+
+<p>We can and should become more rounded individuals, and there are lots of paths! Trying more things, listening to others and stepping out of our comfort zones will all get us there.</p>
+
+<h3><a href="https://rubyconf.eventer.com/rubyconf-australia-2015-1223/sideprojects-and-startups-by-collis-ta-eed-1723">Side Projects &amp; Startups – Collis Ta’eed</a></h3>
+
+<p>Startups are hard. Build side projects instead. <em>Present You</em> won’t be under so much pressure, and <em>Future You</em> will have a richer set of experiences to draw on. Plus side projects don’t have to justify their existence!</p>
+
+<h3><a href="https://rubyconf.eventer.com/rubyconf-australia-2015-1223/feeling-like-a-better-developer-aka-overcoming-impostor-syndrome-by-joss-paling-1729">Feel like a better developer – Joss Paling</a></h3>
+
+<blockquote class="twitter-tweet" lang="en"><p>I am not as crap as I think. <a href="https://twitter.com/hashtag/rubyconf_au?src=hash">#rubyconf_au</a></p>&mdash; Andy Nicholson (@andrewdotnich) <a href="https://twitter.com/andrewdotnich/status/563482419630579712">February 5, 2015</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<h3><a href="https://rubyconf.eventer.com/rubyconf-australia-2015-1223/understanding-despair-by-john-dalton-1736">Understanding Despair – John Dalton</a></h3>
+
+<p>A great talk on depression, and how we still suck at talking about it, understanding it, and giving ourselves a break.</p>
+
+<h3><a href="https://rubyconf.eventer.com/rubyconf-australia-2015-1223/on-second-acts-by-john-barton-1727">On Second Acts – John Barton</a></h3>
+
+<p>or, You Can Do Post-Technical Things (and doing them will help the entire Ruby community). A call to arms for the more senior members of the community: If some of us who understand the benefits of Ruby don’t move into management, we’ll get managers who don’t and the community will suffer.</p>
+
+<h1>Other Observations</h1>
+
+<p><img src='http://andrewdotni.ch//images/picnic.jpg' /></p>
+
+<ul>
+<li><p>I loved the venue – the Edge Theatre is a stunning place and so central to everything! The only downside is that it only allowed for a single conference track. A few people were disappointed that there weren’t more “Ruby-centric” talks, and a single track probably explains most of why.</p></li>
+<li><p>I liked the diversity of Social Activities. The organisers deliberately recognised that not everyone likes to go drinking at the end of every day. I thought the balance of other activities they provided catered for lots of different tastes. Well done!</p></li>
+<li><p>I was pleased to meet a few <em>new</em> Rubyists at the conference. I feel like I’ve been on the fringes of the community for ages, and haven’t quite known how to “break in”, as it were. Meeting new recruits to our community gave me a chance to pay that welcome forward.</p></li>
+</ul>
+
+
+<p>If you made it this far, well done. The conference was great, and Rubyists of any level should go next year and make it even better.</p>
+
+<hr>
+
+
+<p><aside>
+Photo Credits:</p>
+
+<ul>
+<li><a href="https://twitter.com/jimilaw/status/563113067676848128">https://twitter.com/jimilaw/status/563113067676848128</a></li>
+<li><a href="https://twitter.com/pat/status/563135596676141056">https://twitter.com/pat/status/563135596676141056</a></li>
+<li><a href="https://twitter.com/rubyconf_au/status/563967802239758336">https://twitter.com/rubyconf_au/status/563967802239758336</a></li>
+<li><a href="https://twitter.com/JonRowe/status/563532920447459328">https://twitter.com/JonRowe/status/563532920447459328</a>
+</aside></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Tech Talks: August 2014]]></title>
+    <link href="http://andrewdotni.ch//blog/2014/08/20/talks-august-2014/"/>
+    <updated>2014-08-20T11:28:17+10:00</updated>
+    <id>http://andrewdotni.ch//blog/2014/08/20/talks-august-2014</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve recently been enjoying refreshing my Ruby testing &amp; design skills, and these 3 talks have been excellent. They&rsquo;re not new talks; I&rsquo;ve seen some of them before. It never hurts to be reminded about good design and good practices!</p>
+
+<h3>The Magic Tricks of Testing</h3>
+
+<h4>Sandi Metz</h4>
+
+<iframe width="853" height="480" src="//www.youtube-nocookie.com/embed/URSWYvyc42M?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<p><strong>Watch it because:</strong> the rules for unit testing minimalism are actually kind of simple - we just need to remember them!</p>
+
+<h3>Yay! Mocks!</h3>
+
+<h4>Corey Haines</h4>
+
+<iframe width="853" height="480" src="//www.youtube-nocookie.com/embed/t430e6M5YAo?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<p><strong>Watch it because:</strong> Listen to your tests! If you&rsquo;re finding pain in your tests, it&rsquo;s a compelling reason to rethink your design. Also cats.</p>
+
+<h3>Refactoring from Good to Great</h3>
+
+<h4>Ben Orenstein</h4>
+
+<iframe width="853" height="480" src="//www.youtube-nocookie.com/embed/DC-pQPq0acs?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<p><strong>Watch it because:</strong> <code>vim</code> ninja! The entire talk is done inside <code>vim</code>. Highly practical, and good arguments for keeping your public interfaces understandable.</p>
+]]></content>
+  </entry>
+  
+</feed>
