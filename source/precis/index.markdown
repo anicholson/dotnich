@@ -8,7 +8,7 @@ footer: true
 ---
 # pr&eacute;cis
 
-Hi! I'm a 28-year-old software developer from Melbourne, Australia. Please call me Andy :)
+Hi! I'm a 29-year-old software developer from Melbourne, Australia. Please call me Andy :)
 
 Here&apos;s what you need to know about me:
 
@@ -30,7 +30,7 @@ Here&apos;s what you need to know about me:
 
 * I grew up in Brisbane, when good coffee was "Nescafe Gold" and international cuisine was from the Chinese Takeaway down the road. It's a different city now, but I don't regret moving to Melbourne with my family in 2003.
 
-* I love [my church][5], and I play piano there in one of the bands. I also play harmonica, and am teaching myself to play [this strange contraption][4]!
+* I play piano, harmonica, and am teaching myself to play [this strange contraption][4]!
 
 [1]: http://blog.kickin-the-darkness.com/2007/09/confessions-of-terrible-programmer.html
 [2]: http://ruby-lang.org
