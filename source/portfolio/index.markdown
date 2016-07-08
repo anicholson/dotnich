@@ -12,7 +12,7 @@ Here's a selection of things I have either built or am building - whether softwa
 
 ## Pain <i class='icon-ruby'></i>
 
-I read Daniel Cook's article "Improving Bug Triage with User Pain", and found it very helpful.
+I read Daniel Cook's article "[Improving Bug Triage with User Pain][pain]", and found it very helpful.
 I decided to knock up a quick CLI tool that I could use to score bugs for my projects quickly and simply :)
 
 <img src="/images/pain.png">
@@ -49,3 +49,4 @@ Ideas for frontends:
 [2]: http://github.com/anicholson/mining_frontends
 [3]: http://github.com/anicholson/pain
 [4]: http://gs1net-codelist-editor.herokuapp.com/
+[pain]: http://www.lostgarden.com/2008/05/improving-bug-triage-with-user-pain.html
