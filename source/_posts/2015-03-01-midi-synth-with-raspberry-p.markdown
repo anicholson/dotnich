@@ -38,7 +38,7 @@ Depending on what you’re trying to do, this step might not be necessary. But i
 Run the following commands:
 
 {% codeblock lang:bash %}
-$ sudo useradd -G audio synth
+$ sudo useradd -m -G audio synth
 {% endcodeblock %}
 
 This creates the `audio` group, and adds a new user called `synth` to the Pi. It also sets the synth user's primary group to `audio`. This is more important if you want to run your audio through the JACK audio server. I'm choosing not to here, but it's an option. If you do decide to investigate JACK further, [Ted's Linux MIDI Guide][2] has some useful information.
