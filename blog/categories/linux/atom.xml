@@ -4,7 +4,7 @@
   <title><![CDATA[Category: linux | andrewdotnich]]></title>
   <link href="http://andrewdotni.ch//blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://andrewdotni.ch//"/>
-  <updated>2016-07-08T15:57:56+10:00</updated>
+  <updated>2016-07-15T10:36:11+10:00</updated>
   <id>http://andrewdotni.ch//</id>
   <author>
     <name><![CDATA[Andy Nicholson]]></name>
@@ -54,7 +54,7 @@ Part of my <a href="/blog/2015/01/08/welcome-to-2015/">year of projects</a>.</p>
 <p>Run the following commands:</p>
 
 <p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>sudo useradd -G audio synth
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>sudo useradd -m -G audio synth
 </span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>This creates the <code>audio</code> group, and adds a new user called <code>synth</code> to the Pi. It also sets the synth user&rsquo;s primary group to <code>audio</code>. This is more important if you want to run your audio through the JACK audio server. I&rsquo;m choosing not to here, but it&rsquo;s an option. If you do decide to investigate JACK further, <a href="http://tedfelix.com/linux/linux-midi.html">Ted&rsquo;s Linux MIDI Guide</a> has some useful information.</p>
