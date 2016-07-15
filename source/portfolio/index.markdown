@@ -10,6 +10,24 @@ footer: true
 
 Here's a selection of things I have either built or am building - whether software or not!
 
+## Barnabas <i class='icon-crystal'></i>
+
+Like many developers, I spend a lot of time in front of my laptop, and a bunch of _that_ time in a Terminal.
+This app prompts users to send a message to a friend when they open a new terminal, and sends that message
+using OSX's Messages.app.
+
+To install:
+
+```
+brew tap andrewdotnich/andrewdotnich
+
+brew update
+
+brew install barnabas
+```
+
+[Code on Github][barnabas-code]
+
 ## Pain <i class='icon-ruby'></i>
 
 I read Daniel Cook's article "[Improving Bug Triage with User Pain][pain]", and found it very helpful.
