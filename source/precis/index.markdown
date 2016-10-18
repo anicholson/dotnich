@@ -8,13 +8,13 @@ footer: true
 ---
 # pr&eacute;cis
 
-Hi! I'm a 29-year-old software developer from Melbourne, Australia. Please call me Andy :)
+Hi! I'm a 30-year-old software developer from Melbourne, Australia. Please call me Andy :)
 
 Here&apos;s what you need to know about me:
 
 * I have been interested in technology since childhood (first an IBM XT, then a 386!), and people since becoming an adult.
 
-* I pick up new languages, concepts, and technologies quickly. My career so far has called on me to learn and use PHP, Python, and Javascript, but right now I mostly write code in [Ruby][2].
+* I pick up new languages, concepts, and technologies quickly. My career so far has called on me to learn and use PHP, Python, and even a smattering of C++!  Right now I mostly write code in [Ruby][4], Javascript, [Crystal][crystal] & [Elm][elm].
 
 * I'm warm and friendly, and easy to work with.
 
@@ -36,4 +36,5 @@ Here&apos;s what you need to know about me:
 [2]: http://ruby-lang.org
 [3]: http://au.linkedin.com/in/anicholson/
 [4]: http://marcodi.com/
-[5]: http://www.christchurchhawthorn.org/
+[crystal]: http://crystal-lang.org/
+[elm]: http://elm-lang.org/
