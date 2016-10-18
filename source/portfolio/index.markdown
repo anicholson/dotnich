@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Portfolio"
-date: 2014-07-21 13:34
+date: 2016-10-18 16:00
 comments: false
 sharing: true
 footer: true
@@ -9,6 +9,13 @@ footer: true
 # Portfolio &amp; Projects
 
 Here's a selection of things I have either built or am building - whether software or not!
+
+## Hangman <i class=‘icon-elm’></i>
+
+I wanted to learn to write code in Elm, so I made a small game!
+
+[Play hangman][hangman-game]
+[Code on Github][hangman-code]
 
 ## Barnabas <i class='icon-crystal'></i>
 
@@ -68,3 +75,6 @@ Ideas for frontends:
 [3]: http://github.com/anicholson/pain
 [4]: http://gs1net-codelist-editor.herokuapp.com/
 [pain]: http://www.lostgarden.com/2008/05/improving-bug-triage-with-user-pain.html
+[barnabas-code]: http://github.com/anicholson/barnabas
+[hangman-code]: http://github.com/anicholson/elm-hangman
+[hangman-game]: http://hangman.dotni.ch/
