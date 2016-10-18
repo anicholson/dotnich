@@ -17,6 +17,7 @@ gem 'compass',            '~> 0.12.2'
 gem 'sass-globbing',      '~> 1.0.0'
 gem 'rubypants',          '~> 0.2.0'
 gem 'safe_yaml',          '>= 1.0.4'
+gem 'redcarpet',          '>= 3.2.3'
 
 gem 'stringex',             '~> 1.4.0'
 gem 'rake',                 '~> 10.0'
