@@ -10,12 +10,14 @@ footer: true
 
 Here's a selection of things I have either built or am building - whether software or not!
 
-## Hangman <i class=‘icon-elm’></i>
+## Hangman <i class='icon-elm'></i>
 
 I wanted to learn to write code in Elm, so I made a small game!
 
-[Play hangman][hangman-game]
-[Code on Github][hangman-code]
+<img src="/images/hangman.jpg">
+
+* [Play hangman][hangman-game]
+* [Code on Github][hangman-code]
 
 ## Barnabas <i class='icon-crystal'></i>
 
