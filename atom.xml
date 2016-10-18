@@ -4,7 +4,7 @@
   <title><![CDATA[andrewdotnich]]></title>
   <link href="http://andrewdotni.ch//atom.xml" rel="self"/>
   <link href="http://andrewdotni.ch//"/>
-  <updated>2016-10-18T16:33:31+11:00</updated>
+  <updated>2016-10-18T16:53:06+11:00</updated>
   <id>http://andrewdotni.ch//</id>
   <author>
     <name><![CDATA[Andy Nicholson]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Tech talk: Crystal for Ruby Developers]]></title>
+    <link href="http://andrewdotni.ch//blog/2016/10/01/tech-talk-crystal-for-ruby-developers/"/>
+    <updated>2016-10-01T18:00:00+11:00</updated>
+    <id>http://andrewdotni.ch//blog/2016/10/01/tech-talk-crystal-for-ruby-developers</id>
+    <content type="html"><![CDATA[<p>At the August 2016 <a href="https://www.meetup.com/Ruby-On-Rails-Oceania-Melbourne/">RoRo Meetup</a>, I was privileged to talk about the <a href="https://crystal-lang.org/">Crystal programming language</a>, comparing &amp; contrasting it with Ruby. I was really nervous, as I&rsquo;d never presented at a tech meetup before, but I think it went really well!</p>
+
+<p>You can <a href="http://andrewdotni.ch//presentations/crystal-roro-aug-2016/">take a look at the slide deck</a> (use your arrow keys!)</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Kiva Snapshot]]></title>
@@ -1316,16 +1327,6 @@ Octopress is a different kind of blog system than many &ndash; there&rsquo;s no 
     <id>http://andrewdotni.ch//blog/2011/11/11/movember</id>
     <content type="html"><![CDATA[<div class='post'>
 <table cellpadding="0" cellspacing="0" class="tr-caption-container" style="float: left; margin-right: 3em; text-align: left;"><tbody><tr><td style="text-align: center;"><a href="http://4.bp.blogspot.com/-4iMF1g43lJ0/TrxvCDPwtrI/AAAAAAAAAE4/ucxAZOmgo9k/s1600/mo_before.jpg" imageanchor="1" style="clear: left; margin-bottom: 1em; margin-left: auto; margin-right: auto;"><img border="0" height="200" src="http://4.bp.blogspot.com/-4iMF1g43lJ0/TrxvCDPwtrI/AAAAAAAAAE4/ucxAZOmgo9k/s200/mo_before.jpg" width="150" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Before</td></tr></tbody></table><div style="text-align: justify;">Anyone who knows me well would agree that changes to the amount and style of hair on my head are few and far between. Once I get into a habit, it tends not to change for some time. And then, suddenly, I&#8217;ll decide it&#8217;s time for something different and without warning, spring it on the world.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">I may have just done that again.</div><div style="text-align: justify;"><br /></div><div style="text-align: center;"><div style="text-align: justify;">I&#8217;ve had a small <a href="http://en.wikipedia.org/wiki/Van_Dyke_beard">Van Dyck-style</a> beard for a few years, but I decided that I wanted to try something different. And what better time to do it than <a href="http://au.movember.com/">Movember</a>?</div></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><table cellpadding="0" cellspacing="0" class="tr-caption-container" style="float: left; text-align: left; margin-right: 3em"><tbody><tr><td style="text-align: center;"><a href="http://1.bp.blogspot.com/-9M2jmE-JKqE/TrxvEQRMFJI/AAAAAAAAAFA/3imu9FDUyLo/s1600/mo_after.jpg" imageanchor="1" style="clear: left; margin-bottom: 1em; margin-left: auto; margin-right: auto;"><img border="0" height="200" src="http://1.bp.blogspot.com/-9M2jmE-JKqE/TrxvEQRMFJI/AAAAAAAAAFA/3imu9FDUyLo/s200/mo_after.jpg" width="150" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Angry face - Day 0!</td></tr></tbody></table>Movember aims to raise support and awareness for mens&#8217; health issues, particularly depression and prostate cancer. Both of these issues aren&#8217;t seen as &#8220;manly&#8221; things to talk about, so I think the association with facial hair (seriously, how hard do you have to work to make a beard/moustache unmanly) is a good way of breaking the ice.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">I haven&#8217;t yet decided what style I&#8217;ll end up with by November 30 - any suggestions? And if you&#8217;d like to get on board and support me, you can do so over at my <a href="http://mobro.co/andrewdotnich">&#8220;MoSpace&#8221; page</a> :D</div><br /><br /><br /></div>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Digital distractions: The Murderer]]></title>
-    <link href="http://andrewdotni.ch//blog/2011/09/27/digital-distractions-murderer/"/>
-    <updated>2011-09-27T17:45:00+10:00</updated>
-    <id>http://andrewdotni.ch//blog/2011/09/27/digital-distractions-murderer</id>
-    <content type="html"><![CDATA[<div class='post'>
-<p><a href="http://andrewdotnich.blogspot.com/2011/08/redeeming-some-time.html">A while back</a> I posted about my growing frustration with the constant distractions I allowed myself to deflected by. I&#8217;m still mulling over about what my response should be; I&#8217;ve taken some small steps, and I hope to share those another time.<br /></p><p>In the meantime, have a listen to this short story by sci-fi author <a href="http://en.wikipedia.org/wiki/Ray_Bradbury">Ray Bradbury</a>, called <em>The Murderer</em>.<br /></p><p>In it, a psychologist examines a man who&#8217;s had enough, and decided to take matters into his own hands…<br /><br /><small><a href="http://bit.ly/ruSef4" target="_blank">The Murderer [MP3] (9MB, ~15 minutes)</a> - (opens in a new window/tab)</small><br /><br /></p></div>
 ]]></content>
   </entry>
   

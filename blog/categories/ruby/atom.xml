@@ -4,7 +4,7 @@
   <title><![CDATA[Category: ruby | andrewdotnich]]></title>
   <link href="http://andrewdotni.ch//blog/categories/ruby/atom.xml" rel="self"/>
   <link href="http://andrewdotni.ch//"/>
-  <updated>2016-10-18T16:33:31+11:00</updated>
+  <updated>2016-10-18T16:53:06+11:00</updated>
   <id>http://andrewdotni.ch//</id>
   <author>
     <name><![CDATA[Andy Nicholson]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Tech talk: Crystal for Ruby Developers]]></title>
+    <link href="http://andrewdotni.ch//blog/2016/10/01/tech-talk-crystal-for-ruby-developers/"/>
+    <updated>2016-10-01T18:00:00+11:00</updated>
+    <id>http://andrewdotni.ch//blog/2016/10/01/tech-talk-crystal-for-ruby-developers</id>
+    <content type="html"><![CDATA[<p>At the August 2016 <a href="https://www.meetup.com/Ruby-On-Rails-Oceania-Melbourne/">RoRo Meetup</a>, I was privileged to talk about the <a href="https://crystal-lang.org/">Crystal programming language</a>, comparing &amp; contrasting it with Ruby. I was really nervous, as I&rsquo;d never presented at a tech meetup before, but I think it went really well!</p>
+
+<p>You can <a href="/presentations/crystal-roro-aug-2016/">take a look at the slide deck</a> (use your arrow keys!)</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Kiva Snapshot]]></title>
